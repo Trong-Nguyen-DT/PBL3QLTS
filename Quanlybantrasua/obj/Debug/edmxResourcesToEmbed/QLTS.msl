@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QUANLYBANTRASUAModelStoreContainer" CdmEntityContainer="QUANLYBANTRASUAEntities1">
+    <EntitySetMapping Name="BANs">
+      <EntityTypeMapping TypeName="QUANLYBANTRASUAModel.BAN">
+        <MappingFragment StoreEntitySet="BAN">
+          <ScalarProperty Name="ID_BAN" ColumnName="ID_BAN" />
+          <ScalarProperty Name="Tenban" ColumnName="Tenban" />
+          <ScalarProperty Name="Tinhtrang" ColumnName="Tinhtrang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CHI_TIET_HOA_DON">
+      <EntityTypeMapping TypeName="QUANLYBANTRASUAModel.CHI_TIET_HOA_DON">
+        <MappingFragment StoreEntitySet="CHI_TIET_HOA_DON">
+          <ScalarProperty Name="ID_CTHD" ColumnName="ID_CTHD" />
+          <ScalarProperty Name="ID_HD" ColumnName="ID_HD" />
+          <ScalarProperty Name="ID_HH" ColumnName="ID_HH" />
+          <ScalarProperty Name="soluong" ColumnName="soluong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HANGHOAs">
+      <EntityTypeMapping TypeName="QUANLYBANTRASUAModel.HANGHOA">
+        <MappingFragment StoreEntitySet="HANGHOA">
+          <ScalarProperty Name="ID_HH" ColumnName="ID_HH" />
+          <ScalarProperty Name="ID_LHH" ColumnName="ID_LHH" />
+          <ScalarProperty Name="Ten_HH" ColumnName="Ten_HH" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="tinhTrang" ColumnName="tinhTrang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOA_DON">
+      <EntityTypeMapping TypeName="QUANLYBANTRASUAModel.HOA_DON">
+        <MappingFragment StoreEntitySet="HOA_DON">
+          <ScalarProperty Name="ID_HD" ColumnName="ID_HD" />
+          <ScalarProperty Name="ID_BAN" ColumnName="ID_BAN" />
+          <ScalarProperty Name="ID_NV" ColumnName="ID_NV" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Gio_den" ColumnName="Gio_den" />
+          <ScalarProperty Name="Gio_di" ColumnName="Gio_di" />
+          <ScalarProperty Name="Tongtien" ColumnName="Tongtien" />
+          <ScalarProperty Name="discount" ColumnName="discount" />
+          <ScalarProperty Name="Diem_TL" ColumnName="Diem_TL" />
+          <ScalarProperty Name="Thanhtoan" ColumnName="Thanhtoan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHACHHANGs">
+      <EntityTypeMapping TypeName="QUANLYBANTRASUAModel.KHACHHANG">
+        <MappingFragment StoreEntitySet="KHACHHANG">
+          <ScalarProperty Name="ID_LKH" ColumnName="ID_LKH" />
+          <ScalarProperty Name="Ten_KH" ColumnName="Ten_KH" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Diemtichluy" ColumnName="Diemtichluy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Loai_HANGHOA">
+      <EntityTypeMapping TypeName="QUANLYBANTRASUAModel.Loai_HANGHOA">
+        <MappingFragment StoreEntitySet="Loai_HANGHOA">
+          <ScalarProperty Name="ID_LHH" ColumnName="ID_LHH" />
+          <ScalarProperty Name="Ten_LHH" ColumnName="Ten_LHH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOAI_KHACH_HANG">
+      <EntityTypeMapping TypeName="QUANLYBANTRASUAModel.LOAI_KHACH_HANG">
+        <MappingFragment StoreEntitySet="LOAI_KHACH_HANG">
+          <ScalarProperty Name="ID_LKH" ColumnName="ID_LKH" />
+          <ScalarProperty Name="Ten_LKH" ColumnName="Ten_LKH" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHANVIENs">
+      <EntityTypeMapping TypeName="QUANLYBANTRASUAModel.NHANVIEN">
+        <MappingFragment StoreEntitySet="NHANVIEN">
+          <ScalarProperty Name="ID_NV" ColumnName="ID_NV" />
+          <ScalarProperty Name="Ten_NV" ColumnName="Ten_NV" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Phanquyen" ColumnName="Phanquyen" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="QUANLYBANTRASUAModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

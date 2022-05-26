@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1526D081-4A3D-4058-AFC1-6A92858FDE1D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Quanlybantrasua</RootNamespace>
+    <AssemblyName>Quanlybantrasua</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BAN.cs">
+      <DependentUpon>QLTS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BLL\BLLQLTS.cs" />
+    <Compile Include="CHI_TIET_HOA_DON.cs">
+      <DependentUpon>QLTS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\CbbItems.cs" />
+    <Compile Include="DTO\CbbLHH.cs" />
+    <Compile Include="DTO\CbbLKH.cs" />
+    <Compile Include="DTO\ChitiethoadonView.cs" />
+    <Compile Include="DTO\Hanghoastate.cs" />
+    <Compile Include="DTO\Hanghoa_View.cs" />
+    <Compile Include="HANGHOA.cs">
+      <DependentUpon>QLTS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HOA_DON.cs">
+      <DependentUpon>QLTS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="KHACHHANG.cs">
+      <DependentUpon>QLTS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Loai_HANGHOA.cs">
+      <DependentUpon>QLTS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LOAI_KHACH_HANG.cs">
+      <DependentUpon>QLTS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NHANVIEN.cs">
+      <DependentUpon>QLTS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLTS.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTS.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QLTS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QLTS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLTS.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>QLTS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="View\AddLhh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AddLhh.Designer.cs">
+      <DependentUpon>AddLhh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Formchuyenban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Formchuyenban.Designer.cs">
+      <DependentUpon>Formchuyenban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Formdangnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Formdangnhap.Designer.cs">
+      <DependentUpon>Formdangnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Formdoimatkhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Formdoimatkhau.Designer.cs">
+      <DependentUpon>Formdoimatkhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Forminchebien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Forminchebien.Designer.cs">
+      <DependentUpon>Forminchebien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Formorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Formorder.Designer.cs">
+      <DependentUpon>Formorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormQLdoanhthu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormQLdoanhthu.Designer.cs">
+      <DependentUpon>FormQLdoanhthu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FormQLkhachhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FormQLkhachhang.Designer.cs">
+      <DependentUpon>FormQLkhachhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Formthanhtoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Formthanhtoan.designer.cs">
+      <DependentUpon>Formthanhtoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\GUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\GUI.Designer.cs">
+      <DependentUpon>GUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Quanlyhanghoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Quanlyhanghoa.Designer.cs">
+      <DependentUpon>Quanlyhanghoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Themmon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Themmon.designer.cs">
+      <DependentUpon>Themmon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UC_Hanghoa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UC_Hanghoa.Designer.cs">
+      <DependentUpon>UC_Hanghoa.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\AddLhh.resx">
+      <DependentUpon>AddLhh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Formchuyenban.resx">
+      <DependentUpon>Formchuyenban.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Formdangnhap.resx">
+      <DependentUpon>Formdangnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Formdoimatkhau.resx">
+      <DependentUpon>Formdoimatkhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Formorder.resx">
+      <DependentUpon>Formorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FormQLdoanhthu.resx">
+      <DependentUpon>FormQLdoanhthu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Formthanhtoan.resx">
+      <DependentUpon>Formthanhtoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\GUI.resx">
+      <DependentUpon>GUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Quanlyhanghoa.resx">
+      <DependentUpon>Quanlyhanghoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Themmon.resx">
+      <DependentUpon>Themmon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UC_Hanghoa.resx">
+      <DependentUpon>UC_Hanghoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="QLTS.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>QLTS.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="QLTS.edmx.diagram">
+      <DependentUpon>QLTS.edmx</DependentUpon>
+    </None>
+    <None Include="Resources\Mau-icon-kinh-lup-de-thuong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="QLTS.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QLTS.edmx</DependentUpon>
+      <LastGenOutput>QLTS.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="QLTS.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>QLTS.edmx</DependentUpon>
+      <LastGenOutput>QLTS.cs</LastGenOutput>
+    </Content>
+    <None Include="Resources\249939013_247249250756799_6554253772619443181_n.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
