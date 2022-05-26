@@ -32,12 +32,12 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnXoa = new System.Windows.Forms.Button();
             this.btnResetPass = new System.Windows.Forms.Button();
-            this.btnSua = new System.Windows.Forms.Button();
-            this.btnThem = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtTimkiem = new System.Windows.Forms.TextBox();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.btnThem = new System.Windows.Forms.Button();
             this.butSearch = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewNV)).BeginInit();
             this.panel2.SuspendLayout();
@@ -87,25 +87,6 @@
             this.panel2.Size = new System.Drawing.Size(950, 114);
             this.panel2.TabIndex = 6;
             // 
-            // btnXoa
-            // 
-            this.btnXoa.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnXoa.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnXoa.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnXoa.FlatAppearance.BorderSize = 3;
-            this.btnXoa.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
-            this.btnXoa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
-            this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXoa.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnXoa.ForeColor = System.Drawing.Color.Black;
-            this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa.Location = new System.Drawing.Point(497, 29);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(192, 51);
-            this.btnXoa.TabIndex = 8;
-            this.btnXoa.Text = "Xóa";
-            this.btnXoa.UseVisualStyleBackColor = false;
-            // 
             // btnResetPass
             // 
             this.btnResetPass.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
@@ -117,6 +98,7 @@
             this.btnResetPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnResetPass.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnResetPass.ForeColor = System.Drawing.Color.Black;
+            this.btnResetPass.Image = global::Quanlybantrasua.Properties.Resources.Button_Refresh_icon;
             this.btnResetPass.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnResetPass.Location = new System.Drawing.Point(741, 29);
             this.btnResetPass.Name = "btnResetPass";
@@ -125,44 +107,6 @@
             this.btnResetPass.Text = "ResetPassword";
             this.btnResetPass.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnResetPass.UseVisualStyleBackColor = false;
-            // 
-            // btnSua
-            // 
-            this.btnSua.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnSua.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnSua.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnSua.FlatAppearance.BorderSize = 3;
-            this.btnSua.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
-            this.btnSua.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
-            this.btnSua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSua.ForeColor = System.Drawing.Color.Black;
-            this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSua.Location = new System.Drawing.Point(251, 28);
-            this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(192, 51);
-            this.btnSua.TabIndex = 6;
-            this.btnSua.Text = "Sửa";
-            this.btnSua.UseVisualStyleBackColor = false;
-            // 
-            // btnThem
-            // 
-            this.btnThem.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnThem.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnThem.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnThem.FlatAppearance.BorderSize = 3;
-            this.btnThem.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
-            this.btnThem.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
-            this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThem.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThem.ForeColor = System.Drawing.Color.Black;
-            this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem.Location = new System.Drawing.Point(10, 29);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(192, 51);
-            this.btnThem.TabIndex = 5;
-            this.btnThem.Text = "Thêm";
-            this.btnThem.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -185,6 +129,69 @@
             this.txtTimkiem.Size = new System.Drawing.Size(280, 34);
             this.txtTimkiem.TabIndex = 4;
             // 
+            // btnXoa
+            // 
+            this.btnXoa.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnXoa.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnXoa.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnXoa.FlatAppearance.BorderSize = 3;
+            this.btnXoa.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
+            this.btnXoa.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXoa.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoa.ForeColor = System.Drawing.Color.Black;
+            this.btnXoa.Image = global::Quanlybantrasua.Properties.Resources.Actions_list_remove_user_icon;
+            this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnXoa.Location = new System.Drawing.Point(497, 29);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(192, 51);
+            this.btnXoa.TabIndex = 8;
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.UseVisualStyleBackColor = false;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // btnSua
+            // 
+            this.btnSua.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnSua.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnSua.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnSua.FlatAppearance.BorderSize = 3;
+            this.btnSua.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
+            this.btnSua.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.btnSua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSua.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSua.ForeColor = System.Drawing.Color.Black;
+            this.btnSua.Image = global::Quanlybantrasua.Properties.Resources.edit_validated_icon;
+            this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSua.Location = new System.Drawing.Point(251, 28);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(192, 51);
+            this.btnSua.TabIndex = 6;
+            this.btnSua.Text = "Sửa";
+            this.btnSua.UseVisualStyleBackColor = false;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            // 
+            // btnThem
+            // 
+            this.btnThem.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnThem.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnThem.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnThem.FlatAppearance.BorderSize = 3;
+            this.btnThem.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
+            this.btnThem.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThem.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThem.ForeColor = System.Drawing.Color.Black;
+            this.btnThem.Image = global::Quanlybantrasua.Properties.Resources.Actions_list_add_user_icon;
+            this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThem.Location = new System.Drawing.Point(10, 29);
+            this.btnThem.Name = "btnThem";
+            this.btnThem.Size = new System.Drawing.Size(192, 51);
+            this.btnThem.TabIndex = 5;
+            this.btnThem.Text = "Thêm";
+            this.btnThem.UseVisualStyleBackColor = false;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            // 
             // butSearch
             // 
             this.butSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -195,6 +202,7 @@
             this.butSearch.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
             this.butSearch.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
             this.butSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.butSearch.Image = global::Quanlybantrasua.Properties.Resources.search_icon;
             this.butSearch.Location = new System.Drawing.Point(895, 38);
             this.butSearch.Name = "butSearch";
             this.butSearch.Size = new System.Drawing.Size(45, 44);

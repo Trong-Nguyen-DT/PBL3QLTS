@@ -39,7 +39,6 @@ C:\Users\PC\OneDrive\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.
 C:\Users\PC\OneDrive\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Formdangnhap.resources
 C:\Users\PC\OneDrive\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Formdoimatkhau.resources
 C:\Users\PC\OneDrive\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Formorder.resources
-C:\Users\PC\OneDrive\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\quanlitrasua.Doanhthu.resources
 C:\Users\PC\OneDrive\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\thayp.xemdon.resources
 C:\Users\PC\OneDrive\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.GUI.resources
 C:\Users\PC\OneDrive\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Quanlyhanghoa.resources
@@ -51,3 +50,6 @@ C:\Users\PC\OneDrive\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.
 C:\Users\PC\OneDrive\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.csproj.CopyComplete
 C:\Users\PC\OneDrive\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.exe
 C:\Users\PC\OneDrive\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.pdb
+C:\Users\PC\OneDrive\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Doanhthu.resources
+C:\Users\PC\OneDrive\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.QLDT.resources
+C:\Users\PC\OneDrive\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.ThemNV.resources

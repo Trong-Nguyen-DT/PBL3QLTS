@@ -42,6 +42,8 @@ namespace Quanlybantrasua
         private void btNV_Click(object sender, EventArgs e)
         {
             Thanhlucchon(btNV);
+            UC_NV ucnv = new UC_NV();
+            AddControls(ucnv);
         }
 
         private void btDT_Click(object sender, EventArgs e)

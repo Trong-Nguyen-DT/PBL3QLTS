@@ -147,7 +147,7 @@
     <Compile Include="View\FormQLdoanhthu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\FormQLdoanhthu.Designer.cs">
+    <Compile Include="View\FormQLdoanhthu.designer.cs">
       <DependentUpon>FormQLdoanhthu.cs</DependentUpon>
     </Compile>
     <Compile Include="View\FormQLkhachhang.cs">
@@ -168,6 +168,12 @@
     <Compile Include="View\GUI.Designer.cs">
       <DependentUpon>GUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\QLDT.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\QLDT.designer.cs">
+      <DependentUpon>QLDT.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Quanlyhanghoa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +185,12 @@
     </Compile>
     <Compile Include="View\Themmon.designer.cs">
       <DependentUpon>Themmon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ThemNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ThemNV.Designer.cs">
+      <DependentUpon>ThemNV.cs</DependentUpon>
     </Compile>
     <Compile Include="View\UC_Hanghoa.cs">
       <SubType>UserControl</SubType>
@@ -226,11 +238,17 @@
     <EmbeddedResource Include="View\GUI.resx">
       <DependentUpon>GUI.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\QLDT.resx">
+      <DependentUpon>QLDT.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Quanlyhanghoa.resx">
       <DependentUpon>Quanlyhanghoa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Themmon.resx">
       <DependentUpon>Themmon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ThemNV.resx">
+      <DependentUpon>ThemNV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\UC_Hanghoa.resx">
       <DependentUpon>UC_Hanghoa.cs</DependentUpon>
@@ -277,6 +295,17 @@
       <DependentUpon>QLTS.edmx</DependentUpon>
       <LastGenOutput>QLTS.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\Actions-edit-delete-icon.png" />
+    <None Include="Resources\Ok-icon.png" />
+    <None Include="Resources\Sex-Male-Female-icon.png" />
+    <None Include="Resources\Phone-icon.png" />
+    <None Include="Resources\Apps-preferences-desktop-user-password-icon.png" />
+    <None Include="Resources\Font-Name-icon.png" />
+    <None Include="Resources\Button-Refresh-icon.png" />
+    <None Include="Resources\Actions-list-remove-user-icon.png" />
+    <None Include="Resources\edit-validated-icon.png" />
+    <None Include="Resources\Actions-list-add-user-icon.png" />
+    <None Include="Resources\search-icon.png" />
     <None Include="Resources\249939013_247249250756799_6554253772619443181_n.png" />
   </ItemGroup>
   <ItemGroup />
