@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Quanlybantrasua.BLL;
 
 namespace Quanlybantrasua.View
 {
@@ -16,6 +17,11 @@ namespace Quanlybantrasua.View
         public QLDT()
         {
             InitializeComponent();
+            GUI();
+        }
+        public void GUI()
+        {
+            dataGridView1.DataSource = BLLQLTS.Instance.GetAllHD();
         }
 
         private void button3_Click(object sender, EventArgs e)

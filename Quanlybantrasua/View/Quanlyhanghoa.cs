@@ -47,6 +47,8 @@ namespace Quanlybantrasua
         private void btDT_Click(object sender, EventArgs e)
         {
             Thanhlucchon(btDT);
+            QLDT ucdt = new QLDT();
+            AddControls(ucdt);
         }
 
         private void Timer_Tick(object sender, EventArgs e)
