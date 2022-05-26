@@ -22,6 +22,7 @@ namespace Quanlybantrasua
         {
             string Name = txtName.Text.ToString();
             string pass = txtPass.Text.ToString();
+            string chucvu = "";
             if (BLLQLTS.Instance.CheckAccount(Name, pass))
             {
                 if (BLLQLTS.Instance.CheckPhanquyen(Name))
@@ -31,7 +32,8 @@ namespace Quanlybantrasua
                 }
                 else
                 {
-                    Quanlyhanghoa f = new Quanlyhanghoa();
+                    chucvu = "Quản lý";
+                    Quanlyhanghoa f = new Quanlyhanghoa(Name,chucvu);
                     f.ShowDialog();
                 }
 

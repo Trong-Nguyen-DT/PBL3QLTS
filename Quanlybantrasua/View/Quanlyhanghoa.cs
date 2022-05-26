@@ -14,9 +14,15 @@ namespace Quanlybantrasua
 {
     public partial class Quanlyhanghoa : Form
     {
-        public Quanlyhanghoa()
+        public string NameNhanvien { get; set; }
+        public string Chucvu { get; set; }
+        public Quanlyhanghoa(string Name,string CV)
         {
+            NameNhanvien = Name;
+            Chucvu = CV;
             InitializeComponent();
+            txtchucvu.Text = Chucvu;
+            NameNV.Text = Name;
             UC_Hanghoa uchh = new UC_Hanghoa();
             AddControls(uchh);
             Timer.Start();
@@ -42,11 +48,15 @@ namespace Quanlybantrasua
         private void btNV_Click(object sender, EventArgs e)
         {
             Thanhlucchon(btNV);
+            UC_NV ucnv = new UC_NV();
+            AddControls(ucnv);
         }
 
         private void btDT_Click(object sender, EventArgs e)
         {
             Thanhlucchon(btDT);
+            QLDT ucdt = new QLDT();
+            AddControls(ucdt);
         }
 
         private void Timer_Tick(object sender, EventArgs e)

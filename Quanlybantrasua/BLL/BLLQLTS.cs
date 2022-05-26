@@ -332,5 +332,74 @@ namespace Quanlybantrasua.BLL
             s.Gia = Gia;
             db.SaveChanges();
         }
+        public List<NHANVIEN> GetAllNV()
+        {
+            List<NHANVIEN> data = new List<NHANVIEN>();
+            data = db.NHANVIENs.ToList();
+            return data;
+        }
+        public void AddNV(NHANVIEN s)
+        {
+            db.NHANVIENs.Add(s);
+            db.SaveChanges();
+        }
+        public void UpdateNV(NHANVIEN s)
+        {
+            NHANVIEN n = db.NHANVIENs.Find(s.ID_NV);
+            n.Ten_NV = s.Ten_NV;
+            n.PhoneNumber = s.PhoneNumber;
+            n.Gender = s.Gender;
+            n.Phanquyen = s.Phanquyen;
+            n.password = s.password;
+            db.SaveChanges();
+        }
+        public NHANVIEN GetNVByID(int ID_NV)
+        {
+            NHANVIEN s = db.NHANVIENs.Find(ID_NV);
+            return s;
+        }
+        public bool CheckAddNV(NHANVIEN s)
+        {
+            //true->Add,false->Update
+            foreach (NHANVIEN i in db.NHANVIENs)
+            {
+                if (i.ID_NV == s.ID_NV)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+        public void AddUpdateNV(NHANVIEN s)
+        {
+            if (CheckAddNV(s) == true)
+            {
+                AddNV(s);
+            }
+            else
+            {
+                UpdateNV(s);
+            }
+        }
+        public List<Nhanvien_View> GetNV_ViewByTenNV(string TenNV)
+        {
+            List<Nhanvien_View> data = new List<Nhanvien_View>();
+            foreach (NHANVIEN i in GetAllNV())
+            {
+                if (i.Ten_NV.Contains(TenNV))
+                {
+                    data.Add(new Nhanvien_View
+                    {
+                        ID_NV = i.ID_NV,
+                        Name = i.Ten_NV,
+                        Gender = i.Gender,
+                        PhoneNumber = i.PhoneNumber,
+                        Phanquyen = i.Phanquyen,
+                        password = i.password
+                    });
+                }
+            }
+            return data;
+        }
     }
 }

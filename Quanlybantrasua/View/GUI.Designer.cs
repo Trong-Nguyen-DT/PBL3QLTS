@@ -46,6 +46,20 @@ namespace Quanlybantrasua
             this.ban15 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.ban24 = new System.Windows.Forms.Button();
+            this.ban23 = new System.Windows.Forms.Button();
+            this.ban22 = new System.Windows.Forms.Button();
+            this.ban21 = new System.Windows.Forms.Button();
+            this.ban29 = new System.Windows.Forms.Button();
+            this.ban28 = new System.Windows.Forms.Button();
+            this.ban27 = new System.Windows.Forms.Button();
+            this.ban26 = new System.Windows.Forms.Button();
+            this.ban25 = new System.Windows.Forms.Button();
+            this.ban20 = new System.Windows.Forms.Button();
+            this.ban19 = new System.Windows.Forms.Button();
+            this.ban18 = new System.Windows.Forms.Button();
+            this.ban17 = new System.Windows.Forms.Button();
+            this.ban16 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
@@ -89,20 +103,6 @@ namespace Quanlybantrasua
             this.cbbLHH = new System.Windows.Forms.ComboBox();
             this.DGVOrder = new System.Windows.Forms.DataGridView();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.ban16 = new System.Windows.Forms.Button();
-            this.ban17 = new System.Windows.Forms.Button();
-            this.ban18 = new System.Windows.Forms.Button();
-            this.ban19 = new System.Windows.Forms.Button();
-            this.ban20 = new System.Windows.Forms.Button();
-            this.ban21 = new System.Windows.Forms.Button();
-            this.ban22 = new System.Windows.Forms.Button();
-            this.ban23 = new System.Windows.Forms.Button();
-            this.ban24 = new System.Windows.Forms.Button();
-            this.ban25 = new System.Windows.Forms.Button();
-            this.ban26 = new System.Windows.Forms.Button();
-            this.ban27 = new System.Windows.Forms.Button();
-            this.ban28 = new System.Windows.Forms.Button();
-            this.ban29 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -350,6 +350,160 @@ namespace Quanlybantrasua
             this.button1.TabIndex = 7;
             this.button1.Text = "Mang về";
             this.button1.UseVisualStyleBackColor = false;
+            // 
+            // ban24
+            // 
+            this.ban24.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban24.Location = new System.Drawing.Point(320, 312);
+            this.ban24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban24.Name = "ban24";
+            this.ban24.Size = new System.Drawing.Size(67, 57);
+            this.ban24.TabIndex = 0;
+            this.ban24.Text = "Bàn 24";
+            this.ban24.UseVisualStyleBackColor = false;
+            // 
+            // ban23
+            // 
+            this.ban23.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban23.Location = new System.Drawing.Point(246, 312);
+            this.ban23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban23.Name = "ban23";
+            this.ban23.Size = new System.Drawing.Size(67, 57);
+            this.ban23.TabIndex = 0;
+            this.ban23.Text = "Bàn 23";
+            this.ban23.UseVisualStyleBackColor = false;
+            // 
+            // ban22
+            // 
+            this.ban22.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban22.Location = new System.Drawing.Point(170, 312);
+            this.ban22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban22.Name = "ban22";
+            this.ban22.Size = new System.Drawing.Size(67, 57);
+            this.ban22.TabIndex = 0;
+            this.ban22.Text = "Bàn 22";
+            this.ban22.UseVisualStyleBackColor = false;
+            // 
+            // ban21
+            // 
+            this.ban21.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban21.Location = new System.Drawing.Point(92, 312);
+            this.ban21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban21.Name = "ban21";
+            this.ban21.Size = new System.Drawing.Size(67, 57);
+            this.ban21.TabIndex = 0;
+            this.ban21.Text = "Bàn 21";
+            this.ban21.UseVisualStyleBackColor = false;
+            // 
+            // ban29
+            // 
+            this.ban29.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban29.Location = new System.Drawing.Point(320, 381);
+            this.ban29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban29.Name = "ban29";
+            this.ban29.Size = new System.Drawing.Size(67, 57);
+            this.ban29.TabIndex = 0;
+            this.ban29.Text = "Bàn 29";
+            this.ban29.UseVisualStyleBackColor = false;
+            // 
+            // ban28
+            // 
+            this.ban28.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban28.Location = new System.Drawing.Point(246, 381);
+            this.ban28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban28.Name = "ban28";
+            this.ban28.Size = new System.Drawing.Size(67, 57);
+            this.ban28.TabIndex = 0;
+            this.ban28.Text = "Bàn 28";
+            this.ban28.UseVisualStyleBackColor = false;
+            // 
+            // ban27
+            // 
+            this.ban27.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban27.Location = new System.Drawing.Point(170, 381);
+            this.ban27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban27.Name = "ban27";
+            this.ban27.Size = new System.Drawing.Size(67, 57);
+            this.ban27.TabIndex = 0;
+            this.ban27.Text = "Bàn 27";
+            this.ban27.UseVisualStyleBackColor = false;
+            // 
+            // ban26
+            // 
+            this.ban26.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban26.Location = new System.Drawing.Point(92, 381);
+            this.ban26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban26.Name = "ban26";
+            this.ban26.Size = new System.Drawing.Size(67, 57);
+            this.ban26.TabIndex = 0;
+            this.ban26.Text = "Bàn 26";
+            this.ban26.UseVisualStyleBackColor = false;
+            // 
+            // ban25
+            // 
+            this.ban25.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban25.Location = new System.Drawing.Point(15, 381);
+            this.ban25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban25.Name = "ban25";
+            this.ban25.Size = new System.Drawing.Size(67, 57);
+            this.ban25.TabIndex = 0;
+            this.ban25.Text = "Bàn 25";
+            this.ban25.UseVisualStyleBackColor = false;
+            // 
+            // ban20
+            // 
+            this.ban20.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban20.Location = new System.Drawing.Point(15, 312);
+            this.ban20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban20.Name = "ban20";
+            this.ban20.Size = new System.Drawing.Size(67, 57);
+            this.ban20.TabIndex = 0;
+            this.ban20.Text = "Bàn 20";
+            this.ban20.UseVisualStyleBackColor = false;
+            // 
+            // ban19
+            // 
+            this.ban19.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban19.Location = new System.Drawing.Point(320, 241);
+            this.ban19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban19.Name = "ban19";
+            this.ban19.Size = new System.Drawing.Size(67, 57);
+            this.ban19.TabIndex = 0;
+            this.ban19.Text = "Bàn 19";
+            this.ban19.UseVisualStyleBackColor = false;
+            // 
+            // ban18
+            // 
+            this.ban18.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban18.Location = new System.Drawing.Point(246, 241);
+            this.ban18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban18.Name = "ban18";
+            this.ban18.Size = new System.Drawing.Size(67, 57);
+            this.ban18.TabIndex = 0;
+            this.ban18.Text = "Bàn 18";
+            this.ban18.UseVisualStyleBackColor = false;
+            // 
+            // ban17
+            // 
+            this.ban17.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban17.Location = new System.Drawing.Point(170, 241);
+            this.ban17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban17.Name = "ban17";
+            this.ban17.Size = new System.Drawing.Size(67, 57);
+            this.ban17.TabIndex = 0;
+            this.ban17.Text = "Bàn 17";
+            this.ban17.UseVisualStyleBackColor = false;
+            // 
+            // ban16
+            // 
+            this.ban16.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban16.Location = new System.Drawing.Point(92, 241);
+            this.ban16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban16.Name = "ban16";
+            this.ban16.Size = new System.Drawing.Size(67, 57);
+            this.ban16.TabIndex = 0;
+            this.ban16.Text = "Bàn 16";
+            this.ban16.UseVisualStyleBackColor = false;
             // 
             // button23
             // 
@@ -721,6 +875,7 @@ namespace Quanlybantrasua
             this.butUpdate.TabIndex = 7;
             this.butUpdate.Text = "Sửa";
             this.butUpdate.UseVisualStyleBackColor = false;
+            this.butUpdate.Click += new System.EventHandler(this.butUpdate_Click);
             // 
             // button28
             // 
@@ -895,160 +1050,6 @@ namespace Quanlybantrasua
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(707, 616);
             this.panel5.TabIndex = 16;
-            // 
-            // ban16
-            // 
-            this.ban16.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ban16.Location = new System.Drawing.Point(92, 241);
-            this.ban16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ban16.Name = "ban16";
-            this.ban16.Size = new System.Drawing.Size(67, 57);
-            this.ban16.TabIndex = 0;
-            this.ban16.Text = "Bàn 16";
-            this.ban16.UseVisualStyleBackColor = false;
-            // 
-            // ban17
-            // 
-            this.ban17.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ban17.Location = new System.Drawing.Point(170, 241);
-            this.ban17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ban17.Name = "ban17";
-            this.ban17.Size = new System.Drawing.Size(67, 57);
-            this.ban17.TabIndex = 0;
-            this.ban17.Text = "Bàn 17";
-            this.ban17.UseVisualStyleBackColor = false;
-            // 
-            // ban18
-            // 
-            this.ban18.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ban18.Location = new System.Drawing.Point(246, 241);
-            this.ban18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ban18.Name = "ban18";
-            this.ban18.Size = new System.Drawing.Size(67, 57);
-            this.ban18.TabIndex = 0;
-            this.ban18.Text = "Bàn 18";
-            this.ban18.UseVisualStyleBackColor = false;
-            // 
-            // ban19
-            // 
-            this.ban19.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ban19.Location = new System.Drawing.Point(320, 241);
-            this.ban19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ban19.Name = "ban19";
-            this.ban19.Size = new System.Drawing.Size(67, 57);
-            this.ban19.TabIndex = 0;
-            this.ban19.Text = "Bàn 19";
-            this.ban19.UseVisualStyleBackColor = false;
-            // 
-            // ban20
-            // 
-            this.ban20.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ban20.Location = new System.Drawing.Point(15, 312);
-            this.ban20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ban20.Name = "ban20";
-            this.ban20.Size = new System.Drawing.Size(67, 57);
-            this.ban20.TabIndex = 0;
-            this.ban20.Text = "Bàn 20";
-            this.ban20.UseVisualStyleBackColor = false;
-            // 
-            // ban21
-            // 
-            this.ban21.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ban21.Location = new System.Drawing.Point(92, 312);
-            this.ban21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ban21.Name = "ban21";
-            this.ban21.Size = new System.Drawing.Size(67, 57);
-            this.ban21.TabIndex = 0;
-            this.ban21.Text = "Bàn 21";
-            this.ban21.UseVisualStyleBackColor = false;
-            // 
-            // ban22
-            // 
-            this.ban22.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ban22.Location = new System.Drawing.Point(170, 312);
-            this.ban22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ban22.Name = "ban22";
-            this.ban22.Size = new System.Drawing.Size(67, 57);
-            this.ban22.TabIndex = 0;
-            this.ban22.Text = "Bàn 22";
-            this.ban22.UseVisualStyleBackColor = false;
-            // 
-            // ban23
-            // 
-            this.ban23.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ban23.Location = new System.Drawing.Point(246, 312);
-            this.ban23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ban23.Name = "ban23";
-            this.ban23.Size = new System.Drawing.Size(67, 57);
-            this.ban23.TabIndex = 0;
-            this.ban23.Text = "Bàn 23";
-            this.ban23.UseVisualStyleBackColor = false;
-            // 
-            // ban24
-            // 
-            this.ban24.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ban24.Location = new System.Drawing.Point(320, 312);
-            this.ban24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ban24.Name = "ban24";
-            this.ban24.Size = new System.Drawing.Size(67, 57);
-            this.ban24.TabIndex = 0;
-            this.ban24.Text = "Bàn 24";
-            this.ban24.UseVisualStyleBackColor = false;
-            // 
-            // ban25
-            // 
-            this.ban25.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ban25.Location = new System.Drawing.Point(15, 381);
-            this.ban25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ban25.Name = "ban25";
-            this.ban25.Size = new System.Drawing.Size(67, 57);
-            this.ban25.TabIndex = 0;
-            this.ban25.Text = "Bàn 25";
-            this.ban25.UseVisualStyleBackColor = false;
-            // 
-            // ban26
-            // 
-            this.ban26.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ban26.Location = new System.Drawing.Point(92, 381);
-            this.ban26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ban26.Name = "ban26";
-            this.ban26.Size = new System.Drawing.Size(67, 57);
-            this.ban26.TabIndex = 0;
-            this.ban26.Text = "Bàn 26";
-            this.ban26.UseVisualStyleBackColor = false;
-            // 
-            // ban27
-            // 
-            this.ban27.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ban27.Location = new System.Drawing.Point(170, 381);
-            this.ban27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ban27.Name = "ban27";
-            this.ban27.Size = new System.Drawing.Size(67, 57);
-            this.ban27.TabIndex = 0;
-            this.ban27.Text = "Bàn 27";
-            this.ban27.UseVisualStyleBackColor = false;
-            // 
-            // ban28
-            // 
-            this.ban28.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ban28.Location = new System.Drawing.Point(246, 381);
-            this.ban28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ban28.Name = "ban28";
-            this.ban28.Size = new System.Drawing.Size(67, 57);
-            this.ban28.TabIndex = 0;
-            this.ban28.Text = "Bàn 28";
-            this.ban28.UseVisualStyleBackColor = false;
-            // 
-            // ban29
-            // 
-            this.ban29.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ban29.Location = new System.Drawing.Point(320, 381);
-            this.ban29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ban29.Name = "ban29";
-            this.ban29.Size = new System.Drawing.Size(67, 57);
-            this.ban29.TabIndex = 0;
-            this.ban29.Text = "Bàn 29";
-            this.ban29.UseVisualStyleBackColor = false;
             // 
             // button3
             // 

@@ -36,22 +36,22 @@
             this.btNV = new System.Windows.Forms.Button();
             this.btHH = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btDangxuat = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
+            this.txtchucvu = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.TG = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.NameNV = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Timer = new System.Windows.Forms.Timer(this.components);
             this.panelHH = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.paneltrai.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
@@ -138,6 +138,16 @@
             this.panel2.Size = new System.Drawing.Size(250, 150);
             this.panel2.TabIndex = 30;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Quanlybantrasua.Properties.Resources._249939013_247249250756799_6554253772619443181_n;
+            this.pictureBox1.Location = new System.Drawing.Point(78, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(94, 93);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
@@ -166,10 +176,10 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel4.Controls.Add(this.label6);
+            this.panel4.Controls.Add(this.txtchucvu);
             this.panel4.Controls.Add(this.label5);
             this.panel4.Controls.Add(this.TG);
-            this.panel4.Controls.Add(this.label4);
+            this.panel4.Controls.Add(this.NameNV);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(250, 53);
@@ -177,15 +187,14 @@
             this.panel4.Size = new System.Drawing.Size(950, 97);
             this.panel4.TabIndex = 30;
             // 
-            // label6
+            // txtchucvu
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(154, 55);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(87, 25);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Quản lý";
+            this.txtchucvu.AutoSize = true;
+            this.txtchucvu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtchucvu.Location = new System.Drawing.Point(154, 55);
+            this.txtchucvu.Name = "txtchucvu";
+            this.txtchucvu.Size = new System.Drawing.Size(0, 25);
+            this.txtchucvu.TabIndex = 0;
             // 
             // label5
             // 
@@ -208,15 +217,14 @@
             this.TG.TabIndex = 0;
             this.TG.Text = "HH:mm:ss";
             // 
-            // label4
+            // NameNV
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(154, 13);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(274, 25);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Nguyễn Văn Trọng Nguyên";
+            this.NameNV.AutoSize = true;
+            this.NameNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameNV.Location = new System.Drawing.Point(154, 13);
+            this.NameNV.Name = "NameNV";
+            this.NameNV.Size = new System.Drawing.Size(0, 25);
+            this.NameNV.TabIndex = 0;
             // 
             // label1
             // 
@@ -242,16 +250,6 @@
             this.panelHH.Size = new System.Drawing.Size(950, 570);
             this.panelHH.TabIndex = 31;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Quanlybantrasua.Properties.Resources._249939013_247249250756799_6554253772619443181_n;
-            this.pictureBox1.Location = new System.Drawing.Point(78, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(94, 93);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // Quanlyhanghoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -269,10 +267,10 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.paneltrai.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -288,10 +286,10 @@
         private System.Windows.Forms.Panel TLC;
         private System.Windows.Forms.Button btDT;
         private System.Windows.Forms.Button btNV;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label txtchucvu;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label TG;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label NameNV;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer Timer;
         private System.Windows.Forms.Panel panelHH;

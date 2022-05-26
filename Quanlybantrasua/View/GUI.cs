@@ -24,6 +24,25 @@ namespace Quanlybantrasua
         }
         Boolean Checkclick = false;
         String Tenban = "";
+        int tongtien;
+        public void Tongtien(int ID_HD)
+        {
+            tongtien = 0;
+            foreach(CHI_TIET_HOA_DON i in BLLQLTS.Instance.GetAllCTHD())
+            {
+                if(i.ID_HD == ID_HD)
+                {
+                    foreach(HANGHOA j in BLLQLTS.Instance.GetAllHH())
+                    {
+                        if (j.ID_HH == i.ID_HH)
+                        {
+                            tongtien +=Convert.ToInt32(i.soluong * j.Gia);
+                        }
+                    }
+                }
+            }
+            txtTT.Text = tongtien.ToString();
+        }
         public void GetTT()
         {
             foreach(HOA_DON i in BLLQLTS.Instance.GetAllHD())
@@ -87,11 +106,12 @@ namespace Quanlybantrasua
             int ID_HD=0;
             foreach (HOA_DON j in BLLQLTS.Instance.GetAllHD())
             {
-                if (j.BAN.Tenban==Tenban)
+                if (j.BAN.Tenban==Tenban && j.Thanhtoan==false)
                 {
                     ID_HD = j.ID_HD;
                 }
             }
+            Tongtien(ID_HD);
             DGVFood.DataSource = BLLQLTS.Instance.GetDetailBill(ID_HD);
             DGVFood.AutoSizeColumnsMode=DataGridViewAutoSizeColumnsMode.Fill;
 
@@ -147,6 +167,7 @@ namespace Quanlybantrasua
                             b.ID_HH = Convert.ToInt32(i.Cells["ID_HH"].Value.ToString());
                             b.soluong = lbSoluong.SelectedIndex + 1 ;
                             BLLQLTS.Instance.AddUpDetailBill(b);
+                            Tongtien(b.ID_HD);
                             DGVFood.DataSource = BLLQLTS.Instance.GetDetailBill((int)b.ID_HD);
                         }
 
@@ -225,12 +246,34 @@ namespace Quanlybantrasua
             if (DGVFood.SelectedRows.Count > 0)
             {
                 MessageBox.Show("Bạn có muốn xóa không ?");
+                CHI_TIET_HOA_DON b = new CHI_TIET_HOA_DON();
+                b.ID_CTHD = BLLQLTS.Instance.GetAllCTHD().Count + 1;
+                foreach (BAN j in BLLQLTS.Instance.GetAllBan())
+                {
+                    if (j.Tenban == Tenban)
+                    {
+                        foreach (HOA_DON k in BLLQLTS.Instance.GetAllHD())
+                        {
+                            if (k.ID_BAN == j.ID_BAN && k.Thanhtoan == false)
+                            {
+                                b.ID_HD = k.ID_HD;
+                                Tongtien(b.ID_HD);
+                            }
+                        }
+                    }
+                };
+
             }
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void butUpdate_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
