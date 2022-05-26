@@ -54,7 +54,7 @@ namespace Quanlybantrasua.View
         private void btSearch_Click(object sender, EventArgs e)
         {
             string s = txtTimkiemTenHH.Text.ToString();
-            danhsachhanghoa.DataSource = BLLQLTS.Instance.GetHH_ViewByTenHH(s); n
+            danhsachhanghoa.DataSource = BLLQLTS.Instance.GetHH_ViewByTenHH(s);
         }
 
         private void btTN_Click(object sender, EventArgs e)
