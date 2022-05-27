@@ -168,12 +168,6 @@
     <Compile Include="View\GUI.Designer.cs">
       <DependentUpon>GUI.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\QLDT.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="View\QLDT.designer.cs">
-      <DependentUpon>QLDT.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\Quanlyhanghoa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -191,6 +185,12 @@
     </Compile>
     <Compile Include="View\ThemNV.Designer.cs">
       <DependentUpon>ThemNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UC_doanhthu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UC_doanhthu.Designer.cs">
+      <DependentUpon>UC_doanhthu.cs</DependentUpon>
     </Compile>
     <Compile Include="View\UC_Hanghoa.cs">
       <SubType>UserControl</SubType>
@@ -238,9 +238,6 @@
     <EmbeddedResource Include="View\GUI.resx">
       <DependentUpon>GUI.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\QLDT.resx">
-      <DependentUpon>QLDT.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="View\Quanlyhanghoa.resx">
       <DependentUpon>Quanlyhanghoa.cs</DependentUpon>
     </EmbeddedResource>
@@ -249,6 +246,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\ThemNV.resx">
       <DependentUpon>ThemNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UC_doanhthu.resx">
+      <DependentUpon>UC_doanhthu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\UC_Hanghoa.resx">
       <DependentUpon>UC_Hanghoa.cs</DependentUpon>

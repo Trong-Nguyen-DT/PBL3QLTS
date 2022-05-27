@@ -117,7 +117,7 @@ namespace Quanlybantrasua
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1200, 68);
+            this.panel2.Size = new System.Drawing.Size(1200, 125);
             this.panel2.TabIndex = 7;
             // 
             // pictureBox1
@@ -125,24 +125,24 @@ namespace Quanlybantrasua
             this.pictureBox1.Image = global::Quanlybantrasua.Properties.Resources._249939013_247249250756799_6554253772619443181_n;
             this.pictureBox1.Location = new System.Drawing.Point(-4, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(71, 68);
+            this.pictureBox1.Size = new System.Drawing.Size(125, 125);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
             // btNguon
             // 
-            this.btNguon.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.btNguon.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btNguon.Dock = System.Windows.Forms.DockStyle.Right;
             this.btNguon.FlatAppearance.BorderSize = 0;
             this.btNguon.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btNguon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btNguon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btNguon.ForeColor = System.Drawing.Color.White;
-            this.btNguon.Location = new System.Drawing.Point(1129, 1);
+            this.btNguon.Location = new System.Drawing.Point(1075, 0);
             this.btNguon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btNguon.Name = "btNguon";
-            this.btNguon.Size = new System.Drawing.Size(66, 66);
+            this.btNguon.Size = new System.Drawing.Size(125, 125);
             this.btNguon.TabIndex = 4;
             this.btNguon.Text = "OUT";
             this.btNguon.UseVisualStyleBackColor = false;
@@ -152,11 +152,11 @@ namespace Quanlybantrasua
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.label4.Font = new System.Drawing.Font("Trebuchet MS", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Trebuchet MS", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(94, 16);
+            this.label4.Location = new System.Drawing.Point(129, 22);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(228, 36);
+            this.label4.Size = new System.Drawing.Size(386, 59);
             this.label4.TabIndex = 8;
             this.label4.Text = "Sky Tea and Milk";
             // 
@@ -185,7 +185,7 @@ namespace Quanlybantrasua
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.txtPass);
-            this.panel1.Location = new System.Drawing.Point(362, 105);
+            this.panel1.Location = new System.Drawing.Point(358, 176);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(484, 508);
             this.panel1.TabIndex = 8;

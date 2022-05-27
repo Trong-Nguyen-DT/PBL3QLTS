@@ -55,7 +55,7 @@ namespace Quanlybantrasua
         private void btDT_Click(object sender, EventArgs e)
         {
             Thanhlucchon(btDT);
-            QLDT ucdt = new QLDT();
+            UC_doanhthu ucdt = new UC_doanhthu();
             AddControls(ucdt);
         }
 
@@ -68,6 +68,11 @@ namespace Quanlybantrasua
         private void btDangxuat_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btDMK_Click(object sender, EventArgs e)
+        {
+            Thanhlucchon(btDMK);
         }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using System;
-
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +11,9 @@ using Quanlybantrasua.BLL;
 
 namespace Quanlybantrasua.View
 {
-    public partial class QLDT : UserControl
+    public partial class UC_doanhthu : UserControl
     {
-        public QLDT()
+        public UC_doanhthu()
         {
             InitializeComponent();
             GUI();
@@ -23,14 +22,5 @@ namespace Quanlybantrasua.View
         {
             dataGridView1.DataSource = BLLQLTS.Instance.GetAllHD();
         }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-        }
-
-        //private void button2_Click(object sender, EventArgs e)
-        //{
-        //    dataGridView1.DataSource = BLL.BLLQLTS.Instance.timkiem_dl(textBox1.Text);
-        //}
     }
 }
