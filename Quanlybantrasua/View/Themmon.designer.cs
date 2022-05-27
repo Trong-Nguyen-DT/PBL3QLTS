@@ -34,14 +34,14 @@
             this.Tenloaihanghoa = new System.Windows.Forms.ComboBox();
             this.txttenhh = new System.Windows.Forms.TextBox();
             this.txtGia = new System.Windows.Forms.TextBox();
-            this.tm_thoat = new System.Windows.Forms.Button();
-            this.tm_luu = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.butAddLHH = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.butAddLHH = new System.Windows.Forms.Button();
+            this.tm_luu = new System.Windows.Forms.Button();
+            this.tm_thoat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -76,11 +76,11 @@
             // 
             // Tenloaihanghoa
             // 
-            this.Tenloaihanghoa.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Tenloaihanghoa.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tenloaihanghoa.FormattingEnabled = true;
             this.Tenloaihanghoa.Location = new System.Drawing.Point(294, 138);
             this.Tenloaihanghoa.Name = "Tenloaihanghoa";
-            this.Tenloaihanghoa.Size = new System.Drawing.Size(302, 35);
+            this.Tenloaihanghoa.Size = new System.Drawing.Size(302, 34);
             this.Tenloaihanghoa.TabIndex = 3;
             // 
             // txttenhh
@@ -99,32 +99,6 @@
             this.txtGia.Size = new System.Drawing.Size(302, 36);
             this.txtGia.TabIndex = 5;
             // 
-            // tm_thoat
-            // 
-            this.tm_thoat.BackColor = System.Drawing.Color.Gray;
-            this.tm_thoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.tm_thoat.ForeColor = System.Drawing.Color.White;
-            this.tm_thoat.Location = new System.Drawing.Point(264, 367);
-            this.tm_thoat.Name = "tm_thoat";
-            this.tm_thoat.Size = new System.Drawing.Size(88, 50);
-            this.tm_thoat.TabIndex = 6;
-            this.tm_thoat.Text = "Thoát";
-            this.tm_thoat.UseVisualStyleBackColor = false;
-            this.tm_thoat.Click += new System.EventHandler(this.tm_thoat_Click);
-            // 
-            // tm_luu
-            // 
-            this.tm_luu.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.tm_luu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.tm_luu.ForeColor = System.Drawing.Color.White;
-            this.tm_luu.Location = new System.Drawing.Point(416, 367);
-            this.tm_luu.Name = "tm_luu";
-            this.tm_luu.Size = new System.Drawing.Size(88, 50);
-            this.tm_luu.TabIndex = 7;
-            this.tm_luu.Text = "Lưu";
-            this.tm_luu.UseVisualStyleBackColor = false;
-            this.tm_luu.Click += new System.EventHandler(this.tm_luu_Click);
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -134,20 +108,6 @@
             this.label4.Size = new System.Drawing.Size(315, 69);
             this.label4.TabIndex = 8;
             this.label4.Text = "Thêm món";
-            // 
-            // butAddLHH
-            // 
-            this.butAddLHH.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.butAddLHH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.butAddLHH.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butAddLHH.ForeColor = System.Drawing.Color.White;
-            this.butAddLHH.Location = new System.Drawing.Point(620, 138);
-            this.butAddLHH.Name = "butAddLHH";
-            this.butAddLHH.Size = new System.Drawing.Size(88, 35);
-            this.butAddLHH.TabIndex = 7;
-            this.butAddLHH.Text = "Thêm";
-            this.butAddLHH.UseVisualStyleBackColor = false;
-            this.butAddLHH.Click += new System.EventHandler(this.butAddLHH_Click);
             // 
             // panel1
             // 
@@ -185,6 +145,46 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(749, 10);
             this.panel4.TabIndex = 12;
+            // 
+            // butAddLHH
+            // 
+            this.butAddLHH.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.butAddLHH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.butAddLHH.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butAddLHH.ForeColor = System.Drawing.Color.White;
+            this.butAddLHH.Image = global::Quanlybantrasua.Properties.Resources.add;
+            this.butAddLHH.Location = new System.Drawing.Point(620, 135);
+            this.butAddLHH.Name = "butAddLHH";
+            this.butAddLHH.Size = new System.Drawing.Size(45, 45);
+            this.butAddLHH.TabIndex = 7;
+            this.butAddLHH.UseVisualStyleBackColor = false;
+            this.butAddLHH.Click += new System.EventHandler(this.butAddLHH_Click);
+            // 
+            // tm_luu
+            // 
+            this.tm_luu.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.tm_luu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tm_luu.ForeColor = System.Drawing.Color.White;
+            this.tm_luu.Image = global::Quanlybantrasua.Properties.Resources.yes;
+            this.tm_luu.Location = new System.Drawing.Point(416, 367);
+            this.tm_luu.Name = "tm_luu";
+            this.tm_luu.Size = new System.Drawing.Size(88, 50);
+            this.tm_luu.TabIndex = 7;
+            this.tm_luu.UseVisualStyleBackColor = false;
+            this.tm_luu.Click += new System.EventHandler(this.tm_luu_Click);
+            // 
+            // tm_thoat
+            // 
+            this.tm_thoat.BackColor = System.Drawing.Color.Gray;
+            this.tm_thoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.tm_thoat.ForeColor = System.Drawing.Color.White;
+            this.tm_thoat.Image = global::Quanlybantrasua.Properties.Resources._return;
+            this.tm_thoat.Location = new System.Drawing.Point(264, 367);
+            this.tm_thoat.Name = "tm_thoat";
+            this.tm_thoat.Size = new System.Drawing.Size(88, 50);
+            this.tm_thoat.TabIndex = 6;
+            this.tm_thoat.UseVisualStyleBackColor = false;
+            this.tm_thoat.Click += new System.EventHandler(this.tm_thoat_Click);
             // 
             // Themmon
             // 

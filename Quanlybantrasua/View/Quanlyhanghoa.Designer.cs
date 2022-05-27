@@ -31,6 +31,10 @@
             this.components = new System.ComponentModel.Container();
             this.label3 = new System.Windows.Forms.Label();
             this.paneltrai = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.btDMK = new System.Windows.Forms.Button();
             this.TLC = new System.Windows.Forms.Panel();
             this.btDT = new System.Windows.Forms.Button();
@@ -42,18 +46,22 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.btDangxuat = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.txtchucvu = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.TG = new System.Windows.Forms.Label();
             this.NameNV = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Timer = new System.Windows.Forms.Timer(this.components);
             this.panelHH = new System.Windows.Forms.Panel();
             this.paneltrai.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
@@ -67,6 +75,10 @@
             // paneltrai
             // 
             this.paneltrai.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.paneltrai.Controls.Add(this.pictureBox6);
+            this.paneltrai.Controls.Add(this.pictureBox5);
+            this.paneltrai.Controls.Add(this.pictureBox4);
+            this.paneltrai.Controls.Add(this.pictureBox3);
             this.paneltrai.Controls.Add(this.btDMK);
             this.paneltrai.Controls.Add(this.TLC);
             this.paneltrai.Controls.Add(this.btDT);
@@ -80,6 +92,46 @@
             this.paneltrai.Size = new System.Drawing.Size(288, 720);
             this.paneltrai.TabIndex = 30;
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Quanlybantrasua.Properties.Resources.changed_password;
+            this.pictureBox6.Location = new System.Drawing.Point(20, 562);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(85, 85);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 0;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Quanlybantrasua.Properties.Resources.dt;
+            this.pictureBox5.Location = new System.Drawing.Point(20, 447);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(85, 85);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Quanlybantrasua.Properties.Resources.staff;
+            this.pictureBox4.Location = new System.Drawing.Point(20, 332);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(85, 85);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Quanlybantrasua.Properties.Resources.shop;
+            this.pictureBox3.Location = new System.Drawing.Point(20, 218);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(85, 85);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
             // btDMK
             // 
             this.btDMK.BackColor = System.Drawing.Color.DeepSkyBlue;
@@ -91,7 +143,7 @@
             this.btDMK.Name = "btDMK";
             this.btDMK.Size = new System.Drawing.Size(275, 115);
             this.btDMK.TabIndex = 32;
-            this.btDMK.Text = "   Đổi mật khẩu";
+            this.btDMK.Text = "           Đổi mật khẩu";
             this.btDMK.UseVisualStyleBackColor = false;
             this.btDMK.Click += new System.EventHandler(this.btDMK_Click);
             // 
@@ -114,7 +166,7 @@
             this.btDT.Name = "btDT";
             this.btDT.Size = new System.Drawing.Size(275, 115);
             this.btDT.TabIndex = 31;
-            this.btDT.Text = "   Doanh Thu";
+            this.btDT.Text = "          Doanh Thu";
             this.btDT.UseVisualStyleBackColor = false;
             this.btDT.Click += new System.EventHandler(this.btDT_Click);
             // 
@@ -129,7 +181,7 @@
             this.btNV.Name = "btNV";
             this.btNV.Size = new System.Drawing.Size(275, 115);
             this.btNV.TabIndex = 31;
-            this.btNV.Text = "   Nhân Viên";
+            this.btNV.Text = "          Nhân Viên";
             this.btNV.UseVisualStyleBackColor = false;
             this.btNV.Click += new System.EventHandler(this.btNV_Click);
             // 
@@ -144,7 +196,7 @@
             this.btHH.Name = "btHH";
             this.btHH.Size = new System.Drawing.Size(275, 115);
             this.btHH.TabIndex = 31;
-            this.btHH.Text = "   Hàng Hóa";
+            this.btHH.Text = "          Hàng Hóa";
             this.btHH.UseVisualStyleBackColor = false;
             this.btHH.Click += new System.EventHandler(this.btHH_Click);
             // 
@@ -184,86 +236,77 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(288, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(912, 73);
+            this.panel3.Size = new System.Drawing.Size(912, 72);
             this.panel3.TabIndex = 30;
             // 
             // btDangxuat
             // 
-            this.btDangxuat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btDangxuat.Dock = System.Windows.Forms.DockStyle.Right;
             this.btDangxuat.FlatAppearance.BorderSize = 0;
             this.btDangxuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btDangxuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btDangxuat.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.btDangxuat.Location = new System.Drawing.Point(835, 0);
+            this.btDangxuat.Image = global::Quanlybantrasua.Properties.Resources.logout__2_;
+            this.btDangxuat.Location = new System.Drawing.Point(839, 0);
             this.btDangxuat.Name = "btDangxuat";
-            this.btDangxuat.Size = new System.Drawing.Size(73, 73);
+            this.btDangxuat.Size = new System.Drawing.Size(73, 72);
             this.btDangxuat.TabIndex = 0;
-            this.btDangxuat.Text = "LogOut";
+            this.btDangxuat.Text = " ";
             this.btDangxuat.UseVisualStyleBackColor = true;
             this.btDangxuat.Click += new System.EventHandler(this.btDangxuat_Click);
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.panel4.Controls.Add(this.txtchucvu);
-            this.panel4.Controls.Add(this.label5);
+            this.panel4.Controls.Add(this.pictureBox7);
             this.panel4.Controls.Add(this.TG);
             this.panel4.Controls.Add(this.NameNV);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(288, 73);
+            this.panel4.Location = new System.Drawing.Point(288, 72);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(912, 129);
+            this.panel4.Size = new System.Drawing.Size(912, 130);
             this.panel4.TabIndex = 30;
             // 
-            // txtchucvu
+            // pictureBox7
             // 
-            this.txtchucvu.AutoSize = true;
-            this.txtchucvu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtchucvu.Location = new System.Drawing.Point(243, 79);
-            this.txtchucvu.Name = "txtchucvu";
-            this.txtchucvu.Size = new System.Drawing.Size(36, 25);
-            this.txtchucvu.TabIndex = 0;
-            this.txtchucvu.Text = "bb";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(68, 73);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(138, 32);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Chức Vụ:";
+            this.pictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox7.Image = global::Quanlybantrasua.Properties.Resources.oclock;
+            this.pictureBox7.Location = new System.Drawing.Point(589, 15);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
             // 
             // TG
             // 
             this.TG.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.TG.AutoSize = true;
-            this.TG.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TG.Location = new System.Drawing.Point(695, 48);
+            this.TG.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TG.Location = new System.Drawing.Point(695, 46);
             this.TG.Name = "TG";
-            this.TG.Size = new System.Drawing.Size(152, 32);
+            this.TG.Size = new System.Drawing.Size(179, 38);
             this.TG.TabIndex = 0;
             this.TG.Text = "HH:mm:ss";
             // 
             // NameNV
             // 
             this.NameNV.AutoSize = true;
-            this.NameNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NameNV.Location = new System.Drawing.Point(243, 31);
+            this.NameNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameNV.Location = new System.Drawing.Point(238, 46);
             this.NameNV.Name = "NameNV";
-            this.NameNV.Size = new System.Drawing.Size(36, 25);
+            this.NameNV.Size = new System.Drawing.Size(55, 38);
             this.NameNV.TabIndex = 0;
             this.NameNV.Text = "aa";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(64, 25);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(64, 46);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 32);
+            this.label1.Size = new System.Drawing.Size(162, 38);
             this.label1.TabIndex = 0;
             this.label1.Text = "Xin chào:";
             // 
@@ -297,12 +340,17 @@
             this.Text = "Quanlyhanghoa";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.paneltrai.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -318,8 +366,6 @@
         private System.Windows.Forms.Panel TLC;
         private System.Windows.Forms.Button btDT;
         private System.Windows.Forms.Button btNV;
-        private System.Windows.Forms.Label txtchucvu;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label TG;
         private System.Windows.Forms.Label NameNV;
         private System.Windows.Forms.Label label1;
@@ -329,5 +375,10 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btDMK;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }

@@ -11,5 +11,6 @@ namespace Quanlybantrasua.DTO
         public int ID_HH { get; set; }
         public string Ten_HH { get; set; }
         public int Gia { get; set; }
+        public bool tinhtrang { get; set; }
     }
 }

@@ -78,7 +78,7 @@ namespace Quanlybantrasua.BLL
         public List<Hanghoa_View> GetAllHH_View()
         {
             List<Hanghoa_View> data = new List<Hanghoa_View>();
-            data = db.HANGHOAs.Select(p => new Hanghoa_View { ID_HH = p.ID_HH,Ten_HH = p.Ten_HH,Gia=(int)p.Gia}).ToList();
+            data = db.HANGHOAs.Select(p => new Hanghoa_View { ID_HH = p.ID_HH,Ten_HH = p.Ten_HH,Gia=(int)p.Gia,tinhtrang = (Boolean)p.tinhTrang}).ToList();
 
             return data;
         }
@@ -100,7 +100,8 @@ namespace Quanlybantrasua.BLL
                     {
                         ID_HH= i.ID_HH,
                         Ten_HH=i.Ten_HH,
-                        Gia = (int)i.Gia
+                        Gia = (int)i.Gia,
+                        tinhtrang = (bool)i.tinhTrang
                     }
                     );
                 }

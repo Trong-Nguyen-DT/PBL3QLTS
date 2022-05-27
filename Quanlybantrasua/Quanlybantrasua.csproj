@@ -295,6 +295,31 @@
       <DependentUpon>QLTS.edmx</DependentUpon>
       <LastGenOutput>QLTS.cs</LastGenOutput>
     </Content>
+    <None Include="Resources\private.png" />
+    <None Include="Resources\hide.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\logout64.png" />
+    <None Include="Resources\logout1.png" />
+    <None Include="Resources\pause-multimedia-big-gross-symbol-lines.png" />
+    <None Include="Resources\refresh-button.png" />
+    <None Include="Resources\add-to-basket.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\off.png" />
+    <None Include="Resources\off icon1.jpg" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\yes.png" />
+    <None Include="Resources\return.png" />
+    <None Include="Resources\oclock.png" />
+    <None Include="Resources\changed password.png" />
+    <None Include="Resources\dt.png" />
+    <None Include="Resources\staff.png" />
+    <None Include="Resources\shop.png" />
+    <None Include="Resources\logout %282%29.png" />
+    <None Include="Resources\logout %281%29.png" />
+    <None Include="Resources\logout.png" />
+    <None Include="Resources\off icon.jpg" />
+    <None Include="Resources\dangxuat icon1.jpg" />
+    <None Include="Resources\dangxuat icon.jpg" />
     <None Include="Resources\Actions-edit-delete-icon.png" />
     <None Include="Resources\Ok-icon.png" />
     <None Include="Resources\Sex-Male-Female-icon.png" />

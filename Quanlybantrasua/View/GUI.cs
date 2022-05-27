@@ -92,12 +92,6 @@ namespace Quanlybantrasua
             DGVOrder.DataSource = BLLQLTS.Instance.GetAllHH_View();
             DGVOrder.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
-
-        private void đổiMậtKhẩuToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Formdoimatkhau f = new Formdoimatkhau();
-            f.Show();
-        }
         public new void Click(object sender, EventArgs e)
         {
             Checkclick = true;
@@ -274,6 +268,12 @@ namespace Quanlybantrasua
         private void butUpdate_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Formdoimatkhau f = new Formdoimatkhau();
+            f.ShowDialog();
         }
     }
 }

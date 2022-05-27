@@ -17,19 +17,26 @@ namespace Quanlybantrasua.View
         public UC_Hanghoa()
         {
             InitializeComponent();
-            comboxloc.Items.AddRange(BLLQLTS.Instance.GetCbbLHH().ToArray());
+            comboxloc.Items.Add(new CbbItems { IDLHH = 0, TenLHH = "Tất cả" });
+            comboxloc.Items.AddRange(BLLQLTS.Instance.GetCBB().ToArray());
             GUI();
+
         }
         public void GUI()
         {
+            comboxloc.SelectedIndex = 0;
             danhsachhanghoa.DataSource = BLLQLTS.Instance.GetAllHHTinhtrang();
             danhsachhanghoa.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            danhsachhanghoa.Columns[0].HeaderText = "Mã hàng hóa";
+            danhsachhanghoa.Columns[1].HeaderText = "Tên hàng hóa";
+            danhsachhanghoa.Columns[2].HeaderText = "Giá";
+            danhsachhanghoa.Columns[3].HeaderText = "Tình trạng";
+            danhsachhanghoa.Columns[0].ReadOnly = true;
+            danhsachhanghoa.Columns[1].ReadOnly = true;
+            danhsachhanghoa.Columns[3].ReadOnly = true;
         }
 
-        public void AddCBBLHH(Loai_HANGHOA s)
-        {
-            comboxloc.Items.Add(s);
-        }
+       
 
         private void Them_Click(object sender, EventArgs e)
         {
@@ -40,14 +47,14 @@ namespace Quanlybantrasua.View
 
         private void comboxloc_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int ID_HH = ((CbbLHH)comboxloc.SelectedItem).ID_LHH;
-            if (ID_HH == 0)
+            int ID_LHH = ((CbbItems)comboxloc.SelectedItem).IDLHH;
+            if (ID_LHH == 0)
             {
                 danhsachhanghoa.DataSource = BLLQLTS.Instance.GetAllHH_View();
             }
             else
             {
-                danhsachhanghoa.DataSource = BLLQLTS.Instance.GetHH_ViewbyIDLHH(ID_HH);
+                danhsachhanghoa.DataSource = BLLQLTS.Instance.GetHH_ViewbyIDLHH(ID_LHH);
             }
         }
 

@@ -19,9 +19,7 @@ namespace Quanlybantrasua
         public Quanlyhanghoa(string Name,string CV)
         {
             NameNhanvien = Name;
-            Chucvu = CV;
             InitializeComponent();
-            txtchucvu.Text = Chucvu;
             NameNV.Text = Name;
             UC_Hanghoa uchh = new UC_Hanghoa();
             AddControls(uchh);
@@ -72,7 +70,8 @@ namespace Quanlybantrasua
 
         private void btDMK_Click(object sender, EventArgs e)
         {
-            Thanhlucchon(btDMK);
+            Formdoimatkhau dmk = new Formdoimatkhau();
+            dmk.ShowDialog();
         }
     }
 }

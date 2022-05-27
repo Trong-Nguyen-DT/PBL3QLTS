@@ -48,5 +48,19 @@ namespace Quanlybantrasua
         {
             this.Dispose();
         }
+        int i = 0;
+        private void hienmk_Click(object sender, EventArgs e)
+        {
+            i++;
+            if (i % 2 == 0)
+            {
+                txtPass.UseSystemPasswordChar = true;
+            }
+            else
+            {
+                txtPass.UseSystemPasswordChar = false;
+            }
+
+        }
     }
 }

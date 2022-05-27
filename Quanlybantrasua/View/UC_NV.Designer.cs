@@ -32,12 +32,12 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnResetPass = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.txtTimkiem = new System.Windows.Forms.TextBox();
             this.btnXoa = new System.Windows.Forms.Button();
+            this.btnResetPass = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txtTimkiem = new System.Windows.Forms.TextBox();
             this.butSearch = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewNV)).BeginInit();
             this.panel2.SuspendLayout();
@@ -58,7 +58,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(0, 100);
             this.panel3.Name = "panel3";
@@ -67,7 +67,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel4.Location = new System.Drawing.Point(940, 100);
             this.panel4.Name = "panel4";
@@ -76,7 +76,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.btnXoa);
             this.panel2.Controls.Add(this.btnResetPass);
             this.panel2.Controls.Add(this.btnSua);
@@ -86,48 +86,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(950, 114);
             this.panel2.TabIndex = 6;
-            // 
-            // btnResetPass
-            // 
-            this.btnResetPass.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.btnResetPass.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btnResetPass.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnResetPass.FlatAppearance.BorderSize = 3;
-            this.btnResetPass.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
-            this.btnResetPass.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
-            this.btnResetPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnResetPass.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnResetPass.ForeColor = System.Drawing.Color.Black;
-            this.btnResetPass.Image = global::Quanlybantrasua.Properties.Resources.Button_Refresh_icon;
-            this.btnResetPass.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnResetPass.Location = new System.Drawing.Point(741, 29);
-            this.btnResetPass.Name = "btnResetPass";
-            this.btnResetPass.Size = new System.Drawing.Size(199, 51);
-            this.btnResetPass.TabIndex = 7;
-            this.btnResetPass.Text = "ResetPassword";
-            this.btnResetPass.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnResetPass.UseVisualStyleBackColor = false;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.panel1.Controls.Add(this.txtTimkiem);
-            this.panel1.Controls.Add(this.butSearch);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(950, 100);
-            this.panel1.TabIndex = 5;
-            // 
-            // txtTimkiem
-            // 
-            this.txtTimkiem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTimkiem.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimkiem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txtTimkiem.Location = new System.Drawing.Point(593, 48);
-            this.txtTimkiem.Name = "txtTimkiem";
-            this.txtTimkiem.Size = new System.Drawing.Size(280, 34);
-            this.txtTimkiem.TabIndex = 4;
             // 
             // btnXoa
             // 
@@ -149,6 +107,27 @@
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = false;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // btnResetPass
+            // 
+            this.btnResetPass.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnResetPass.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnResetPass.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnResetPass.FlatAppearance.BorderSize = 3;
+            this.btnResetPass.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal;
+            this.btnResetPass.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal;
+            this.btnResetPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnResetPass.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnResetPass.ForeColor = System.Drawing.Color.Black;
+            this.btnResetPass.Image = global::Quanlybantrasua.Properties.Resources.Button_Refresh_icon;
+            this.btnResetPass.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnResetPass.Location = new System.Drawing.Point(741, 29);
+            this.btnResetPass.Name = "btnResetPass";
+            this.btnResetPass.Size = new System.Drawing.Size(199, 51);
+            this.btnResetPass.TabIndex = 7;
+            this.btnResetPass.Text = "ResetPassword";
+            this.btnResetPass.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnResetPass.UseVisualStyleBackColor = false;
             // 
             // btnSua
             // 
@@ -191,6 +170,27 @@
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.txtTimkiem);
+            this.panel1.Controls.Add(this.butSearch);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(950, 100);
+            this.panel1.TabIndex = 5;
+            // 
+            // txtTimkiem
+            // 
+            this.txtTimkiem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtTimkiem.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTimkiem.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.txtTimkiem.Location = new System.Drawing.Point(593, 48);
+            this.txtTimkiem.Name = "txtTimkiem";
+            this.txtTimkiem.Size = new System.Drawing.Size(280, 34);
+            this.txtTimkiem.TabIndex = 4;
             // 
             // butSearch
             // 
