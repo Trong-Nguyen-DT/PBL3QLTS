@@ -119,7 +119,8 @@ namespace Quanlybantrasua.BLL
                     {
                         ID_HH = i.ID_HH,
                         Ten_HH = i.Ten_HH,
-                        Gia = (int)i.Gia
+                        Gia = (int)i.Gia,
+                        tinhtrang = (bool)i.tinhTrang
                     });
                 }
             }
