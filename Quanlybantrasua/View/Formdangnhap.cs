@@ -27,7 +27,7 @@ namespace Quanlybantrasua
             {
                 if (BLLQLTS.Instance.CheckPhanquyen(Name))
                 {
-                    GUI f = new GUI();
+                    GUI f = new GUI(Name);
                     f.ShowDialog();
                 }
                 else

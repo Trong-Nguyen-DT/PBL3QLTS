@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace thayp
+namespace Quanlybantrasua
 {
     partial class xemdon
     {
@@ -33,18 +33,18 @@ namespace thayp
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(xemdon));
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtIDHD = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtBan = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtTongtien = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtTenNV = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtKM = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -68,10 +68,9 @@ namespace thayp
             this.label2.Location = new System.Drawing.Point(149, 18);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(295, 31);
+            this.label2.Size = new System.Drawing.Size(307, 32);
             this.label2.TabIndex = 1;
             this.label2.Text = "HÓA ĐƠN THANH TOÁN";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -80,18 +79,18 @@ namespace thayp
             this.label3.Location = new System.Drawing.Point(18, 77);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 25);
+            this.label3.Size = new System.Drawing.Size(95, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Hóa Đơn :";
             // 
-            // textBox1
+            // txtIDHD
             // 
-            this.textBox1.Location = new System.Drawing.Point(115, 77);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(107, 29);
-            this.textBox1.TabIndex = 3;
+            this.txtIDHD.Location = new System.Drawing.Point(115, 77);
+            this.txtIDHD.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtIDHD.Multiline = true;
+            this.txtIDHD.Name = "txtIDHD";
+            this.txtIDHD.Size = new System.Drawing.Size(107, 29);
+            this.txtIDHD.TabIndex = 3;
             // 
             // label4
             // 
@@ -100,10 +99,9 @@ namespace thayp
             this.label4.Location = new System.Drawing.Point(18, 122);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(117, 25);
+            this.label4.Size = new System.Drawing.Size(121, 25);
             this.label4.TabIndex = 4;
             this.label4.Text = "Ngày và giờ :";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // dateTimePicker1
             // 
@@ -119,17 +117,16 @@ namespace thayp
             this.label1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(18, 167);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 31);
+            this.label1.Size = new System.Drawing.Size(80, 32);
             this.label1.TabIndex = 6;
             this.label1.Text = "BÀN :";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox2
+            // txtBan
             // 
-            this.textBox2.Location = new System.Drawing.Point(100, 168);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(98, 30);
-            this.textBox2.TabIndex = 7;
+            this.txtBan.Location = new System.Drawing.Point(100, 168);
+            this.txtBan.Name = "txtBan";
+            this.txtBan.Size = new System.Drawing.Size(98, 30);
+            this.txtBan.TabIndex = 7;
             // 
             // dataGridView1
             // 
@@ -151,12 +148,12 @@ namespace thayp
             this.label5.TabIndex = 9;
             this.label5.Text = "Thành tiền :";
             // 
-            // textBox4
+            // txtTongtien
             // 
-            this.textBox4.Location = new System.Drawing.Point(396, 535);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(149, 30);
-            this.textBox4.TabIndex = 12;
+            this.txtTongtien.Location = new System.Drawing.Point(396, 535);
+            this.txtTongtien.Name = "txtTongtien";
+            this.txtTongtien.Size = new System.Drawing.Size(149, 30);
+            this.txtTongtien.TabIndex = 12;
             // 
             // label6
             // 
@@ -167,12 +164,12 @@ namespace thayp
             this.label6.TabIndex = 13;
             this.label6.Text = "Nhân Viên :";
             // 
-            // textBox3
+            // txtTenNV
             // 
-            this.textBox3.Location = new System.Drawing.Point(403, 74);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(125, 30);
-            this.textBox3.TabIndex = 14;
+            this.txtTenNV.Location = new System.Drawing.Point(403, 74);
+            this.txtTenNV.Name = "txtTenNV";
+            this.txtTenNV.Size = new System.Drawing.Size(125, 30);
+            this.txtTenNV.TabIndex = 14;
             // 
             // label7
             // 
@@ -184,12 +181,12 @@ namespace thayp
             this.label7.TabIndex = 15;
             this.label7.Text = "Khuyến mãi :";
             // 
-            // textBox5
+            // txtKM
             // 
-            this.textBox5.Location = new System.Drawing.Point(396, 583);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(149, 30);
-            this.textBox5.TabIndex = 16;
+            this.txtKM.Location = new System.Drawing.Point(396, 583);
+            this.txtKM.Name = "txtKM";
+            this.txtKM.Size = new System.Drawing.Size(149, 30);
+            this.txtKM.TabIndex = 16;
             // 
             // label8
             // 
@@ -295,7 +292,7 @@ namespace thayp
             this.label15.Font = new System.Drawing.Font("Segoe Print", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label15.Location = new System.Drawing.Point(88, 871);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(380, 31);
+            this.label15.Size = new System.Drawing.Size(409, 33);
             this.label15.TabIndex = 28;
             this.label15.Text = "Cảm Ơn Quý Khách Và Hẹn Gặp Lại ! ";
             // 
@@ -317,18 +314,18 @@ namespace thayp
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtKM);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtTenNV);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtTongtien);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtBan);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtIDHD);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Segoe UI", 10.2F);
@@ -345,18 +342,18 @@ namespace thayp
         #endregion
         private Label label2;
         private Label label3;
-        private TextBox textBox1;
+        private TextBox txtIDHD;
         private Label label4;
         private DateTimePicker dateTimePicker1;
         private Label label1;
-        private TextBox textBox2;
+        private TextBox txtBan;
         private DataGridView dataGridView1;
         private Label label5;
-        private TextBox textBox4;
+        private TextBox txtTongtien;
         private Label label6;
-        private TextBox textBox3;
+        private TextBox txtTenNV;
         private Label label7;
-        private TextBox textBox5;
+        private TextBox txtKM;
         private Label label8;
         private Label label9;
         private TextBox textBox6;

@@ -78,7 +78,7 @@ namespace Quanlybantrasua.BLL
         public List<Hanghoa_View> GetAllHH_View()
         {
             List<Hanghoa_View> data = new List<Hanghoa_View>();
-            data = db.HANGHOAs.Select(p => new Hanghoa_View { ID_HH = p.ID_HH,Ten_HH = p.Ten_HH,Gia=(int)p.Gia,tinhtrang = (Boolean)p.tinhTrang}).ToList();
+            data = db.HANGHOAs.Where(p=>p.tinhTrang==true).Select(p => new Hanghoa_View { ID_HH = p.ID_HH,Ten_HH = p.Ten_HH,Gia=(int)p.Gia,tinhtrang = (Boolean)p.tinhTrang}).ToList();
 
             return data;
         }
@@ -154,7 +154,7 @@ namespace Quanlybantrasua.BLL
         public List<ChitiethoadonView> GetDetailBill(int IDHD)
         {
             List<ChitiethoadonView> data = new List<ChitiethoadonView>();
-            data = db.CHI_TIET_HOA_DON.Where(p=>p.HOA_DON.ID_HD==IDHD).Select(p => new ChitiethoadonView {Ten_HH = p.HANGHOA.Ten_HH, soluong = (int)p.soluong }).ToList();
+            data = db.CHI_TIET_HOA_DON.Where(p=>p.HOA_DON.ID_HD==IDHD&&p.soluong>0).Select(p => new ChitiethoadonView {ID_HH=(int)p.ID_HH,Ten_HH = p.HANGHOA.Ten_HH, soluong = (int)p.soluong }).ToList();
             return data;
         }
         public bool CheckKH(int PhoneNB)
@@ -283,11 +283,7 @@ namespace Quanlybantrasua.BLL
             }
             return false;
         }
-        public List<ChitiethoadonView> DellCTHD(int ID_CTHD)
-        {
-            List<ChitiethoadonView> data = new List<ChitiethoadonView>();
-            return data;
-        }
+       
         public void addhh(HANGHOA h)
         { 
             db.HANGHOAs.Add(h);
@@ -401,6 +397,26 @@ namespace Quanlybantrasua.BLL
                 }
             }
             return data;
+        }
+        public void DelUpCTHD(int ID_CTHD,int soluong)
+        {
+            CHI_TIET_HOA_DON s = db.CHI_TIET_HOA_DON.Find(ID_CTHD);
+            s.soluong = soluong;
+            db.SaveChanges();
+        }
+        public void Thanhtoan(HOA_DON s)
+        {
+            HOA_DON data = db.HOA_DON.Find(s.ID_HD);
+            data.Gio_di = s.Gio_di;
+            data.discount = s.discount;
+            data.Tongtien = s.Tongtien;
+            data.Thanhtoan = s.Thanhtoan;
+            db.SaveChanges();
+            KHACHHANG k = db.KHACHHANGs.Find(data.PhoneNumber);
+            k.Diemtichluy += s.Diem_TL;
+            db.SaveChanges();
+
+
         }
     }
 }

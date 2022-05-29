@@ -138,23 +138,17 @@
     <Compile Include="View\Forminchebien.Designer.cs">
       <DependentUpon>Forminchebien.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\Formorder.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Formorder.Designer.cs">
-      <DependentUpon>Formorder.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\FormQLdoanhthu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\FormQLdoanhthu.designer.cs">
       <DependentUpon>FormQLdoanhthu.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\FormQLkhachhang.cs">
+    <Compile Include="View\Formsuasoluong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\FormQLkhachhang.Designer.cs">
-      <DependentUpon>FormQLkhachhang.cs</DependentUpon>
+    <Compile Include="View\Formsuasoluong.Designer.cs">
+      <DependentUpon>Formsuasoluong.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Formthanhtoan.cs">
       <SubType>Form</SubType>
@@ -226,11 +220,11 @@
     <EmbeddedResource Include="View\Formdoimatkhau.resx">
       <DependentUpon>Formdoimatkhau.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\Formorder.resx">
-      <DependentUpon>Formorder.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="View\FormQLdoanhthu.resx">
       <DependentUpon>FormQLdoanhthu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Formsuasoluong.resx">
+      <DependentUpon>Formsuasoluong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Formthanhtoan.resx">
       <DependentUpon>Formthanhtoan.cs</DependentUpon>

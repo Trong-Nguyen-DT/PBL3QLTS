@@ -8,6 +8,7 @@ namespace Quanlybantrasua.DTO
 {
     public class ChitiethoadonView
     {
+        public int ID_HH { get; set; }
         public string Ten_HH { get; set; }
         public int soluong { get; set; }
     }
