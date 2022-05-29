@@ -418,5 +418,69 @@ namespace Quanlybantrasua.BLL
 
 
         }
+        public List<Hoadon_View> TimKiem_hoadon(String TenKhachHang)
+        {
+            List<Hoadon_View> data = new List<Hoadon_View>();
+            foreach (HOA_DON i in GetAllHD())
+            {
+                if (i.KHACHHANG.Ten_KH.ToString().Contains(TenKhachHang))
+                {
+                    data.Add(new Hoadon_View
+                    {
+                        ID_HD = i.ID_HD,
+                        ID_BAN = (int)i.ID_BAN,
+                        TenNV = i.NHANVIEN.Ten_NV,
+                        PhoneNumber = (int)i.PhoneNumber,
+                        Gio_den = (DateTime)i.Gio_den,
+                        Gio_di = (DateTime)i.Gio_di,
+                        Tongtien = (int)i.Tongtien,
+                        discount = (int)i.discount,
+                        Tenkhachhang = i.KHACHHANG.Ten_KH,
+                        Thanhtoan = (bool)i.Thanhtoan
+
+                    });
+                }
+            }
+            return data;
+
+        }
+        public List<Hoadon_View> GetListHDByTG(DateTime ngayBatDau, DateTime ngayKetThuc)
+        {
+            List<Hoadon_View> listHoaDon = new List<Hoadon_View>();
+            listHoaDon = db.HOA_DON.Where(p => p.Gio_di >= ngayBatDau && p.Gio_di <= ngayKetThuc).Select(p => new Hoadon_View { ID_HD = p.ID_HD, ID_BAN = (int)p.ID_BAN, TenNV = p.NHANVIEN.Ten_NV, PhoneNumber = (int)p.PhoneNumber, Gio_den = (DateTime)p.Gio_den, Gio_di = (DateTime)p.Gio_di, discount = (int)p.discount, Tongtien = (int)p.Tongtien, Tenkhachhang = p.KHACHHANG.Ten_KH, Thanhtoan = (bool)p.Thanhtoan }).ToList().ToList();
+            return listHoaDon;
+        }
+        public double tongdoanhthu(List<Hoadon_View> doanhthu)
+        {
+
+            double result = 0;
+            foreach (Hoadon_View i in doanhthu)
+            {
+                result += i.Tongtien;
+            }
+            return result;
+        }
+        public List<CTDTView> GetCTDT(int IDHD)
+        {
+            List<CTDTView> data = new List<CTDTView>();
+            data = db.CHI_TIET_HOA_DON.Where(p => p.ID_HD == IDHD&&p.soluong>0).Select(p => new CTDTView { TenHH = p.HANGHOA.Ten_HH, Soluong = (int)p.soluong, Gia = (int)p.HANGHOA.Gia }).ToList();
+            return data;
+        }
+        public List<Hoadon_View> GetAllHDView()
+        {
+            List<Hoadon_View> data = new List<Hoadon_View>();
+            data = db.HOA_DON.Where(p => p.Thanhtoan == true).Select(p => new Hoadon_View { ID_HD = p.ID_HD, ID_BAN = (int)p.ID_BAN, TenNV = p.NHANVIEN.Ten_NV, PhoneNumber = (int)p.PhoneNumber, Gio_den = (DateTime)p.Gio_den, Gio_di = (DateTime)p.Gio_di, discount = (int)p.discount, Tongtien = (int)p.Tongtien, Tenkhachhang = p.KHACHHANG.Ten_KH, Thanhtoan = (bool)p.Thanhtoan }).ToList();
+            return data;
+        }
+        public double tongtien(List<CTDTView> chitiet)
+        {
+
+            double result = 0;
+            foreach (CTDTView i in chitiet)
+            {
+                result += i.Soluong*i.Gia;
+            }
+            return result;
+        }
     }
 }
