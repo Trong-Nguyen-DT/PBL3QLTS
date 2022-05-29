@@ -45,7 +45,7 @@ namespace Quanlybantrasua
             this.ban13 = new System.Windows.Forms.Button();
             this.ban15 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.mangve = new System.Windows.Forms.Button();
             this.ban24 = new System.Windows.Forms.Button();
             this.ban23 = new System.Windows.Forms.Button();
             this.ban22 = new System.Windows.Forms.Button();
@@ -62,7 +62,7 @@ namespace Quanlybantrasua
             this.ban16 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
+            this.butThucdon = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtNameKH = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -76,18 +76,14 @@ namespace Quanlybantrasua
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label12 = new System.Windows.Forms.Label();
             this.button31 = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
-            this.button30 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.button29 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
             this.DGVFood = new System.Windows.Forms.DataGridView();
             this.butKH = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.butDel = new System.Windows.Forms.Button();
             this.butUpdate = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
             this.butAdd = new System.Windows.Forms.Button();
@@ -99,9 +95,14 @@ namespace Quanlybantrasua
             this.cbbLHH = new System.Windows.Forms.ComboBox();
             this.DGVOrder = new System.Windows.Forms.DataGridView();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.lbNameNV = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtthanhtien = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGVFood)).BeginInit();
@@ -109,6 +110,7 @@ namespace Quanlybantrasua
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGVOrder)).BeginInit();
             this.panel5.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ban2
@@ -259,6 +261,7 @@ namespace Quanlybantrasua
             this.ban12.TabIndex = 0;
             this.ban12.Text = "Bàn 12";
             this.ban12.UseVisualStyleBackColor = false;
+            this.ban12.Click += new System.EventHandler(this.Click);
             // 
             // ban14
             // 
@@ -270,6 +273,7 @@ namespace Quanlybantrasua
             this.ban14.TabIndex = 0;
             this.ban14.Text = "Bàn 14";
             this.ban14.UseVisualStyleBackColor = false;
+            this.ban14.Click += new System.EventHandler(this.Click);
             // 
             // ban13
             // 
@@ -283,6 +287,7 @@ namespace Quanlybantrasua
             this.ban13.TabIndex = 0;
             this.ban13.Text = "Bàn 13";
             this.ban13.UseVisualStyleBackColor = false;
+            this.ban13.Click += new System.EventHandler(this.Click);
             // 
             // ban15
             // 
@@ -294,6 +299,7 @@ namespace Quanlybantrasua
             this.ban15.TabIndex = 0;
             this.ban15.Text = "Bàn 15";
             this.ban15.UseVisualStyleBackColor = false;
+            this.ban15.Click += new System.EventHandler(this.Click);
             // 
             // groupBox1
             // 
@@ -301,7 +307,7 @@ namespace Quanlybantrasua
             this.groupBox1.Controls.Add(this.ban6);
             this.groupBox1.Controls.Add(this.ban2);
             this.groupBox1.Controls.Add(this.ban10);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.mangve);
             this.groupBox1.Controls.Add(this.ban14);
             this.groupBox1.Controls.Add(this.ban1);
             this.groupBox1.Controls.Add(this.ban5);
@@ -336,17 +342,18 @@ namespace Quanlybantrasua
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             // 
-            // button1
+            // mangve
             // 
-            this.button1.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button1.Location = new System.Drawing.Point(15, 30);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(67, 57);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Mang về";
-            this.button1.UseVisualStyleBackColor = false;
+            this.mangve.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.mangve.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.mangve.Location = new System.Drawing.Point(15, 30);
+            this.mangve.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.mangve.Name = "mangve";
+            this.mangve.Size = new System.Drawing.Size(67, 57);
+            this.mangve.TabIndex = 7;
+            this.mangve.Text = "Mang về";
+            this.mangve.UseVisualStyleBackColor = false;
+            this.mangve.Click += new System.EventHandler(this.Click);
             // 
             // ban24
             // 
@@ -358,6 +365,7 @@ namespace Quanlybantrasua
             this.ban24.TabIndex = 0;
             this.ban24.Text = "Bàn 24";
             this.ban24.UseVisualStyleBackColor = false;
+            this.ban24.Click += new System.EventHandler(this.Click);
             // 
             // ban23
             // 
@@ -369,6 +377,7 @@ namespace Quanlybantrasua
             this.ban23.TabIndex = 0;
             this.ban23.Text = "Bàn 23";
             this.ban23.UseVisualStyleBackColor = false;
+            this.ban23.Click += new System.EventHandler(this.Click);
             // 
             // ban22
             // 
@@ -380,6 +389,7 @@ namespace Quanlybantrasua
             this.ban22.TabIndex = 0;
             this.ban22.Text = "Bàn 22";
             this.ban22.UseVisualStyleBackColor = false;
+            this.ban22.Click += new System.EventHandler(this.Click);
             // 
             // ban21
             // 
@@ -391,6 +401,7 @@ namespace Quanlybantrasua
             this.ban21.TabIndex = 0;
             this.ban21.Text = "Bàn 21";
             this.ban21.UseVisualStyleBackColor = false;
+            this.ban21.Click += new System.EventHandler(this.Click);
             // 
             // ban29
             // 
@@ -402,6 +413,7 @@ namespace Quanlybantrasua
             this.ban29.TabIndex = 0;
             this.ban29.Text = "Bàn 29";
             this.ban29.UseVisualStyleBackColor = false;
+            this.ban29.Click += new System.EventHandler(this.Click);
             // 
             // ban28
             // 
@@ -413,6 +425,7 @@ namespace Quanlybantrasua
             this.ban28.TabIndex = 0;
             this.ban28.Text = "Bàn 28";
             this.ban28.UseVisualStyleBackColor = false;
+            this.ban28.Click += new System.EventHandler(this.Click);
             // 
             // ban27
             // 
@@ -424,6 +437,7 @@ namespace Quanlybantrasua
             this.ban27.TabIndex = 0;
             this.ban27.Text = "Bàn 27";
             this.ban27.UseVisualStyleBackColor = false;
+            this.ban27.Click += new System.EventHandler(this.Click);
             // 
             // ban26
             // 
@@ -435,6 +449,7 @@ namespace Quanlybantrasua
             this.ban26.TabIndex = 0;
             this.ban26.Text = "Bàn 26";
             this.ban26.UseVisualStyleBackColor = false;
+            this.ban26.Click += new System.EventHandler(this.Click);
             // 
             // ban25
             // 
@@ -446,6 +461,7 @@ namespace Quanlybantrasua
             this.ban25.TabIndex = 0;
             this.ban25.Text = "Bàn 25";
             this.ban25.UseVisualStyleBackColor = false;
+            this.ban25.Click += new System.EventHandler(this.Click);
             // 
             // ban20
             // 
@@ -457,6 +473,7 @@ namespace Quanlybantrasua
             this.ban20.TabIndex = 0;
             this.ban20.Text = "Bàn 20";
             this.ban20.UseVisualStyleBackColor = false;
+            this.ban20.Click += new System.EventHandler(this.Click);
             // 
             // ban19
             // 
@@ -468,6 +485,7 @@ namespace Quanlybantrasua
             this.ban19.TabIndex = 0;
             this.ban19.Text = "Bàn 19";
             this.ban19.UseVisualStyleBackColor = false;
+            this.ban19.Click += new System.EventHandler(this.Click);
             // 
             // ban18
             // 
@@ -479,6 +497,7 @@ namespace Quanlybantrasua
             this.ban18.TabIndex = 0;
             this.ban18.Text = "Bàn 18";
             this.ban18.UseVisualStyleBackColor = false;
+            this.ban18.Click += new System.EventHandler(this.Click);
             // 
             // ban17
             // 
@@ -490,6 +509,7 @@ namespace Quanlybantrasua
             this.ban17.TabIndex = 0;
             this.ban17.Text = "Bàn 17";
             this.ban17.UseVisualStyleBackColor = false;
+            this.ban17.Click += new System.EventHandler(this.Click);
             // 
             // ban16
             // 
@@ -501,18 +521,20 @@ namespace Quanlybantrasua
             this.ban16.TabIndex = 0;
             this.ban16.Text = "Bàn 16";
             this.ban16.UseVisualStyleBackColor = false;
+            this.ban16.Click += new System.EventHandler(this.Click);
             // 
             // button23
             // 
             this.button23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button23.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button23.Location = new System.Drawing.Point(483, 518);
+            this.button23.Location = new System.Drawing.Point(446, 511);
             this.button23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(111, 55);
             this.button23.TabIndex = 7;
             this.button23.Text = "Thanh toán";
             this.button23.UseVisualStyleBackColor = false;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // button24
             // 
@@ -528,21 +550,21 @@ namespace Quanlybantrasua
             this.button24.Text = "Số bàn";
             this.button24.UseVisualStyleBackColor = false;
             // 
-            // button25
+            // butThucdon
             // 
-            this.button25.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.butThucdon.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button25.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button25.Enabled = false;
-            this.button25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button25.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button25.Location = new System.Drawing.Point(23, 117);
-            this.button25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(594, 45);
-            this.button25.TabIndex = 7;
-            this.button25.Text = "Thực đơn";
-            this.button25.UseVisualStyleBackColor = false;
+            this.butThucdon.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.butThucdon.Enabled = false;
+            this.butThucdon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.butThucdon.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.butThucdon.Location = new System.Drawing.Point(23, 117);
+            this.butThucdon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.butThucdon.Name = "butThucdon";
+            this.butThucdon.Size = new System.Drawing.Size(557, 45);
+            this.butThucdon.TabIndex = 7;
+            this.butThucdon.Text = "Thực đơn";
+            this.butThucdon.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -557,7 +579,7 @@ namespace Quanlybantrasua
             // 
             this.txtNameKH.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtNameKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNameKH.Location = new System.Drawing.Point(160, 45);
+            this.txtNameKH.Location = new System.Drawing.Point(142, 45);
             this.txtNameKH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtNameKH.Name = "txtNameKH";
             this.txtNameKH.Size = new System.Drawing.Size(323, 27);
@@ -576,31 +598,32 @@ namespace Quanlybantrasua
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(47, 525);
+            this.label4.Location = new System.Drawing.Point(16, 504);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(78, 20);
+            this.label4.Size = new System.Drawing.Size(83, 20);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Tổng tiền";
+            this.label4.Text = "Tổng tiền:";
             // 
             // txtTT
             // 
             this.txtTT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtTT.Location = new System.Drawing.Point(131, 518);
+            this.txtTT.Location = new System.Drawing.Point(119, 496);
             this.txtTT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTT.Name = "txtTT";
             this.txtTT.ReadOnly = true;
-            this.txtTT.Size = new System.Drawing.Size(336, 27);
+            this.txtTT.Size = new System.Drawing.Size(284, 27);
             this.txtTT.TabIndex = 9;
+            this.txtTT.TextChanged += new System.EventHandler(this.txtTT_TextChanged);
             // 
             // label6
             // 
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(49, 560);
+            this.label6.Location = new System.Drawing.Point(16, 538);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(76, 20);
+            this.label6.Size = new System.Drawing.Size(81, 20);
             this.label6.TabIndex = 3;
-            this.label6.Text = "Giảm giá";
+            this.label6.Text = "Giảm giá:";
             // 
             // cbbGG
             // 
@@ -609,11 +632,12 @@ namespace Quanlybantrasua
             this.cbbGG.Items.AddRange(new object[] {
             "10",
             "5"});
-            this.cbbGG.Location = new System.Drawing.Point(131, 552);
+            this.cbbGG.Location = new System.Drawing.Point(119, 530);
             this.cbbGG.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbbGG.Name = "cbbGG";
-            this.cbbGG.Size = new System.Drawing.Size(336, 28);
+            this.cbbGG.Size = new System.Drawing.Size(284, 28);
             this.cbbGG.TabIndex = 5;
+            this.cbbGG.SelectedIndexChanged += new System.EventHandler(this.cbbGG_SelectedIndexChanged);
             // 
             // label8
             // 
@@ -629,7 +653,7 @@ namespace Quanlybantrasua
             this.cbbLKH.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cbbLKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbLKH.FormattingEnabled = true;
-            this.cbbLKH.Location = new System.Drawing.Point(160, 76);
+            this.cbbLKH.Location = new System.Drawing.Point(142, 76);
             this.cbbLKH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbbLKH.Name = "cbbLKH";
             this.cbbLKH.Size = new System.Drawing.Size(323, 28);
@@ -640,7 +664,7 @@ namespace Quanlybantrasua
             // 
             this.txtPhone.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPhone.Location = new System.Drawing.Point(160, 14);
+            this.txtPhone.Location = new System.Drawing.Point(142, 14);
             this.txtPhone.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(323, 27);
@@ -651,8 +675,6 @@ namespace Quanlybantrasua
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.button31);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.button30);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.button29);
             this.groupBox2.Location = new System.Drawing.Point(27, 6);
@@ -667,51 +689,32 @@ namespace Quanlybantrasua
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(270, 19);
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label12.Location = new System.Drawing.Point(268, 17);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(43, 16);
+            this.label12.Size = new System.Drawing.Size(105, 25);
             this.label12.TabIndex = 14;
-            this.label12.Text = "Trống";
+            this.label12.Text = "Bàn trống";
             // 
             // button31
             // 
             this.button31.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.button31.Enabled = false;
             this.button31.ForeColor = System.Drawing.Color.Red;
-            this.button31.Location = new System.Drawing.Point(237, 17);
+            this.button31.Location = new System.Drawing.Point(228, 14);
             this.button31.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(28, 19);
+            this.button31.Size = new System.Drawing.Size(36, 30);
             this.button31.TabIndex = 12;
             this.button31.UseVisualStyleBackColor = false;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(154, 21);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(72, 16);
-            this.label11.TabIndex = 14;
-            this.label11.Text = "Bàn đã đặt";
-            // 
-            // button30
-            // 
-            this.button30.BackColor = System.Drawing.Color.Yellow;
-            this.button30.Enabled = false;
-            this.button30.ForeColor = System.Drawing.Color.Yellow;
-            this.button30.Location = new System.Drawing.Point(120, 17);
-            this.button30.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(28, 19);
-            this.button30.TabIndex = 12;
-            this.button30.UseVisualStyleBackColor = false;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(44, 18);
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label10.Location = new System.Drawing.Point(75, 17);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(70, 16);
+            this.label10.Size = new System.Drawing.Size(111, 25);
             this.label10.TabIndex = 14;
             this.label10.Text = "Hoạt động";
             // 
@@ -720,24 +723,12 @@ namespace Quanlybantrasua
             this.button29.BackColor = System.Drawing.Color.Red;
             this.button29.Enabled = false;
             this.button29.ForeColor = System.Drawing.Color.Red;
-            this.button29.Location = new System.Drawing.Point(11, 16);
+            this.button29.Location = new System.Drawing.Point(33, 14);
             this.button29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(28, 19);
+            this.button29.Size = new System.Drawing.Size(36, 30);
             this.button29.TabIndex = 12;
             this.button29.UseVisualStyleBackColor = false;
-            // 
-            // label9
-            // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Mongolian Baiti", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label9.Location = new System.Drawing.Point(728, 35);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(228, 29);
-            this.label9.TabIndex = 3;
-            this.label9.Text = "Sky Tea and Milk";
             // 
             // DGVFood
             // 
@@ -753,7 +744,7 @@ namespace Quanlybantrasua
             this.DGVFood.RowHeadersWidth = 62;
             this.DGVFood.RowTemplate.Height = 28;
             this.DGVFood.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DGVFood.Size = new System.Drawing.Size(594, 336);
+            this.DGVFood.Size = new System.Drawing.Size(557, 310);
             this.DGVFood.TabIndex = 13;
             // 
             // butKH
@@ -761,7 +752,7 @@ namespace Quanlybantrasua
             this.butKH.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.butKH.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.butKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.butKH.Location = new System.Drawing.Point(509, 33);
+            this.butKH.Location = new System.Drawing.Point(472, 33);
             this.butKH.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.butKH.Name = "butKH";
             this.butKH.Size = new System.Drawing.Size(85, 61);
@@ -776,13 +767,15 @@ namespace Quanlybantrasua
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel6.BackColor = System.Drawing.Color.White;
+            this.panel6.Controls.Add(this.txtthanhtien);
+            this.panel6.Controls.Add(this.label11);
             this.panel6.Controls.Add(this.label3);
             this.panel6.Controls.Add(this.txtPhone);
             this.panel6.Controls.Add(this.DGVFood);
             this.panel6.Controls.Add(this.button23);
             this.panel6.Controls.Add(this.butKH);
             this.panel6.Controls.Add(this.label2);
-            this.panel6.Controls.Add(this.button25);
+            this.panel6.Controls.Add(this.butThucdon);
             this.panel6.Controls.Add(this.cbbGG);
             this.panel6.Controls.Add(this.label4);
             this.panel6.Controls.Add(this.txtNameKH);
@@ -791,9 +784,9 @@ namespace Quanlybantrasua
             this.panel6.Controls.Add(this.label6);
             this.panel6.Controls.Add(this.txtTT);
             this.panel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel6.Location = new System.Drawing.Point(725, 88);
+            this.panel6.Location = new System.Drawing.Point(696, 88);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(633, 616);
+            this.panel6.Size = new System.Drawing.Size(596, 616);
             this.panel6.TabIndex = 17;
             // 
             // panel7
@@ -804,7 +797,7 @@ namespace Quanlybantrasua
             this.panel7.Controls.Add(this.groupBox2);
             this.panel7.Controls.Add(this.groupBox1);
             this.panel7.Controls.Add(this.button24);
-            this.panel7.Location = new System.Drawing.Point(1364, 88);
+            this.panel7.Location = new System.Drawing.Point(1298, 88);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(448, 614);
             this.panel7.TabIndex = 18;
@@ -813,10 +806,10 @@ namespace Quanlybantrasua
             // 
             this.butDel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.butDel.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.butDel.Location = new System.Drawing.Point(540, 487);
+            this.butDel.Location = new System.Drawing.Point(524, 396);
             this.butDel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.butDel.Name = "butDel";
-            this.butDel.Size = new System.Drawing.Size(148, 50);
+            this.butDel.Size = new System.Drawing.Size(148, 80);
             this.butDel.TabIndex = 7;
             this.butDel.Text = "Xóa";
             this.butDel.UseVisualStyleBackColor = false;
@@ -826,26 +819,14 @@ namespace Quanlybantrasua
             // 
             this.butUpdate.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.butUpdate.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.butUpdate.Location = new System.Drawing.Point(540, 413);
+            this.butUpdate.Location = new System.Drawing.Point(524, 308);
             this.butUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.butUpdate.Name = "butUpdate";
-            this.butUpdate.Size = new System.Drawing.Size(148, 50);
+            this.butUpdate.Size = new System.Drawing.Size(148, 80);
             this.butUpdate.TabIndex = 7;
             this.butUpdate.Text = "Sửa";
             this.butUpdate.UseVisualStyleBackColor = false;
             this.butUpdate.Click += new System.EventHandler(this.butUpdate_Click);
-            // 
-            // button28
-            // 
-            this.button28.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button28.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button28.Location = new System.Drawing.Point(542, 153);
-            this.button28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(146, 50);
-            this.button28.TabIndex = 7;
-            this.button28.Text = "Đặt bàn";
-            this.button28.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -863,10 +844,10 @@ namespace Quanlybantrasua
             // 
             this.button27.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button27.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button27.Location = new System.Drawing.Point(542, 560);
+            this.button27.Location = new System.Drawing.Point(526, 487);
             this.button27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(144, 50);
+            this.button27.Size = new System.Drawing.Size(144, 80);
             this.button27.TabIndex = 7;
             this.button27.Text = "In chế biến";
             this.button27.UseVisualStyleBackColor = false;
@@ -875,10 +856,10 @@ namespace Quanlybantrasua
             // 
             this.butAdd.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.butAdd.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.butAdd.Location = new System.Drawing.Point(542, 327);
+            this.butAdd.Location = new System.Drawing.Point(526, 217);
             this.butAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.butAdd.Name = "butAdd";
-            this.butAdd.Size = new System.Drawing.Size(148, 50);
+            this.butAdd.Size = new System.Drawing.Size(148, 80);
             this.butAdd.TabIndex = 7;
             this.butAdd.Text = "Thêm";
             this.butAdd.UseVisualStyleBackColor = false;
@@ -889,10 +870,10 @@ namespace Quanlybantrasua
             this.button21.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button21.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button21.Location = new System.Drawing.Point(542, 62);
+            this.button21.Location = new System.Drawing.Point(526, 24);
             this.button21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(146, 50);
+            this.button21.Size = new System.Drawing.Size(146, 80);
             this.button21.TabIndex = 7;
             this.button21.Text = "Chuyển bàn";
             this.button21.UseVisualStyleBackColor = false;
@@ -922,7 +903,7 @@ namespace Quanlybantrasua
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(534, 221);
+            this.label1.Location = new System.Drawing.Point(520, 122);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 16);
             this.label1.TabIndex = 3;
@@ -952,10 +933,10 @@ namespace Quanlybantrasua
             "13",
             "14",
             "15"});
-            this.lbSoluong.Location = new System.Drawing.Point(540, 239);
+            this.lbSoluong.Location = new System.Drawing.Point(526, 140);
             this.lbSoluong.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lbSoluong.Name = "lbSoluong";
-            this.lbSoluong.Size = new System.Drawing.Size(146, 52);
+            this.lbSoluong.Size = new System.Drawing.Size(146, 68);
             this.lbSoluong.TabIndex = 10;
             // 
             // cbbLHH
@@ -1001,26 +982,62 @@ namespace Quanlybantrasua
             this.panel5.Controls.Add(this.butAdd);
             this.panel5.Controls.Add(this.button27);
             this.panel5.Controls.Add(this.button2);
-            this.panel5.Controls.Add(this.button28);
             this.panel5.Controls.Add(this.butUpdate);
             this.panel5.Controls.Add(this.butDel);
             this.panel5.Location = new System.Drawing.Point(12, 88);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(707, 616);
+            this.panel5.Size = new System.Drawing.Size(678, 616);
             this.panel5.TabIndex = 16;
             // 
-            // menuStrip1
+            // panel1
             // 
-            this.menuStrip1.AutoSize = false;
-            this.menuStrip1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.menuStrip1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1828, 75);
-            this.menuStrip1.TabIndex = 12;
-            this.menuStrip1.Text = "menuStrip1";
+            this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.lbNameNV);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1825, 82);
+            this.panel1.TabIndex = 19;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = global::Quanlybantrasua.Properties.Resources.logout64;
+            this.button1.Location = new System.Drawing.Point(1723, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(102, 76);
+            this.button1.TabIndex = 28;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // lbNameNV
+            // 
+            this.lbNameNV.AutoSize = true;
+            this.lbNameNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNameNV.ForeColor = System.Drawing.Color.White;
+            this.lbNameNV.Location = new System.Drawing.Point(250, 20);
+            this.lbNameNV.Name = "lbNameNV";
+            this.lbNameNV.Size = new System.Drawing.Size(55, 38);
+            this.lbNameNV.TabIndex = 26;
+            this.lbNameNV.Text = "aa";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(76, 20);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(162, 38);
+            this.label5.TabIndex = 27;
+            this.label5.Text = "Xin chào:";
             // 
             // button4
             // 
@@ -1029,43 +1046,55 @@ namespace Quanlybantrasua
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Image = global::Quanlybantrasua.Properties.Resources.refresh;
-            this.button4.Location = new System.Drawing.Point(1637, -1);
+            this.button4.Location = new System.Drawing.Point(1627, 0);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(102, 76);
-            this.button4.TabIndex = 20;
+            this.button4.TabIndex = 25;
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
-            // button3
+            // label9
             // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = global::Quanlybantrasua.Properties.Resources.logout64;
-            this.button3.Location = new System.Drawing.Point(1753, 0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 75);
-            this.button3.TabIndex = 19;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(751, 20);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(323, 43);
+            this.label9.TabIndex = 24;
+            this.label9.Text = "Sky Tea and Milk";
+            // 
+            // label11
+            // 
+            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(16, 574);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(92, 20);
+            this.label11.TabIndex = 14;
+            this.label11.Text = "Thành tiền:";
+            // 
+            // txtthanhtien
+            // 
+            this.txtthanhtien.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtthanhtien.Location = new System.Drawing.Point(119, 569);
+            this.txtthanhtien.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtthanhtien.Name = "txtthanhtien";
+            this.txtthanhtien.ReadOnly = true;
+            this.txtthanhtien.Size = new System.Drawing.Size(284, 27);
+            this.txtthanhtien.TabIndex = 15;
             // 
             // GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1828, 720);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.ClientSize = new System.Drawing.Size(1825, 720);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel6);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "GUI";
@@ -1081,8 +1110,9 @@ namespace Quanlybantrasua
             ((System.ComponentModel.ISupportInitialize)(this.DGVOrder)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -1106,7 +1136,7 @@ namespace Quanlybantrasua
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button butThucdon;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtNameKH;
         private System.Windows.Forms.Label label3;
@@ -1120,19 +1150,15 @@ namespace Quanlybantrasua
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Button button30;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button mangve;
         private System.Windows.Forms.DataGridView DGVFood;
         private System.Windows.Forms.Button butKH;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button butDel;
         private System.Windows.Forms.Button butUpdate;
-        private System.Windows.Forms.Button button28;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button27;
         private System.Windows.Forms.Button butAdd;
@@ -1158,9 +1184,14 @@ namespace Quanlybantrasua
         private System.Windows.Forms.Button ban18;
         private System.Windows.Forms.Button ban17;
         private System.Windows.Forms.Button ban16;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lbNameNV;
+        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtthanhtien;
+        private System.Windows.Forms.Label label11;
     }
 }
 

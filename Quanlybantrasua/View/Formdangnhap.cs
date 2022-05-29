@@ -27,7 +27,7 @@ namespace Quanlybantrasua
             {
                 if (BLLQLTS.Instance.CheckPhanquyen(Name))
                 {
-                    GUI f = new GUI();
+                    GUI f = new GUI(Name);
                     f.ShowDialog();
                 }
                 else
@@ -62,30 +62,6 @@ namespace Quanlybantrasua
             }
         }
 
-        private void txtPass_KeyDown(object sender, KeyEventArgs e)
-        {
-            string Name = txtName.Text.ToString();
-            string pass = txtPass.Text.ToString();
-            string chucvu = "";
-            if (BLLQLTS.Instance.CheckAccount(Name, pass))
-            {
-                if (BLLQLTS.Instance.CheckPhanquyen(Name))
-                {
-                    GUI f = new GUI();
-                    f.ShowDialog();
-                }
-                else
-                {
-                    chucvu = "Quản lý";
-                    Quanlyhanghoa f = new Quanlyhanghoa(Name, chucvu);
-                    f.ShowDialog();
-                }
-
-            }
-            else
-            {
-                MessageBox.Show("Tên tài khoản và mật khẩu không đúng");
-            }
-        }
+       
     }
 }

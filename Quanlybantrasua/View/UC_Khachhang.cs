@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Quanlybantrasua
+namespace Quanlybantrasua.View
 {
-    public partial class FormQLkhachhang : Form
+    public partial class UC_Khachhang : UserControl
     {
-        public FormQLkhachhang()
+        public UC_Khachhang()
         {
             InitializeComponent();
         }

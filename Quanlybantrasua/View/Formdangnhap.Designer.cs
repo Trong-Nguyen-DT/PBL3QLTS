@@ -93,7 +93,6 @@ namespace Quanlybantrasua
             this.txtPass.Size = new System.Drawing.Size(415, 34);
             this.txtPass.TabIndex = 1;
             this.txtPass.UseSystemPasswordChar = true;
-            this.txtPass.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPass_KeyDown);
             // 
             // butOK
             // 

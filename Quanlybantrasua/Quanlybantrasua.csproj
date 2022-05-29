@@ -138,23 +138,17 @@
     <Compile Include="View\Forminchebien.Designer.cs">
       <DependentUpon>Forminchebien.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\Formorder.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\Formorder.Designer.cs">
-      <DependentUpon>Formorder.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\FormQLdoanhthu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\FormQLdoanhthu.designer.cs">
       <DependentUpon>FormQLdoanhthu.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\FormQLkhachhang.cs">
+    <Compile Include="View\Formsuasoluong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View\FormQLkhachhang.Designer.cs">
-      <DependentUpon>FormQLkhachhang.cs</DependentUpon>
+    <Compile Include="View\Formsuasoluong.Designer.cs">
+      <DependentUpon>Formsuasoluong.cs</DependentUpon>
     </Compile>
     <Compile Include="View\Formthanhtoan.cs">
       <SubType>Form</SubType>
@@ -198,6 +192,12 @@
     <Compile Include="View\UC_Hanghoa.Designer.cs">
       <DependentUpon>UC_Hanghoa.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\UC_Khachhang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UC_Khachhang.Designer.cs">
+      <DependentUpon>UC_Khachhang.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\UC_NV.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -226,11 +226,11 @@
     <EmbeddedResource Include="View\Formdoimatkhau.resx">
       <DependentUpon>Formdoimatkhau.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\Formorder.resx">
-      <DependentUpon>Formorder.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="View\FormQLdoanhthu.resx">
       <DependentUpon>FormQLdoanhthu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Formsuasoluong.resx">
+      <DependentUpon>Formsuasoluong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Formthanhtoan.resx">
       <DependentUpon>Formthanhtoan.cs</DependentUpon>
@@ -252,6 +252,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\UC_Hanghoa.resx">
       <DependentUpon>UC_Hanghoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UC_Khachhang.resx">
+      <DependentUpon>UC_Khachhang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\UC_NV.resx">
       <DependentUpon>UC_NV.cs</DependentUpon>
