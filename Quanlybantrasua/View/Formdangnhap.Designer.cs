@@ -81,6 +81,7 @@ namespace Quanlybantrasua
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(415, 34);
             this.txtName.TabIndex = 0;
+            this.txtName.Text = "Hau";
             // 
             // txtPass
             // 
@@ -92,6 +93,7 @@ namespace Quanlybantrasua
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(415, 34);
             this.txtPass.TabIndex = 1;
+            this.txtPass.Text = "Hau";
             this.txtPass.UseSystemPasswordChar = true;
             // 
             // butOK

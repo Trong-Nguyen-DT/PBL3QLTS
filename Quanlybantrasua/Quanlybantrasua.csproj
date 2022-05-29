@@ -67,8 +67,10 @@
     <Compile Include="DTO\CbbLHH.cs" />
     <Compile Include="DTO\CbbLKH.cs" />
     <Compile Include="DTO\ChitiethoadonView.cs" />
+    <Compile Include="DTO\CTDTView.cs" />
     <Compile Include="DTO\Hanghoastate.cs" />
     <Compile Include="DTO\Hanghoa_View.cs" />
+    <Compile Include="DTO\Hoadon_View.cs" />
     <Compile Include="DTO\Nhanvien_View.cs" />
     <Compile Include="HANGHOA.cs">
       <DependentUpon>QLTS.tt</DependentUpon>

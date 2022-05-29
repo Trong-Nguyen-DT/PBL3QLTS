@@ -35,18 +35,18 @@ namespace Quanlybantrasua
             this.button1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lb_ctdt = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgv_ctdt = new System.Windows.Forms.DataGridView();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtTenNV = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_ctdt)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -54,10 +54,10 @@ namespace Quanlybantrasua
             this.groupBox1.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.panel3);
-            this.groupBox1.Controls.Add(this.dataGridView1);
+            this.groupBox1.Controls.Add(this.dgv_ctdt);
             this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtTenNV);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(0, -2);
@@ -67,6 +67,7 @@ namespace Quanlybantrasua
             this.groupBox1.Size = new System.Drawing.Size(1040, 474);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // button1
             // 
@@ -82,7 +83,7 @@ namespace Quanlybantrasua
             // 
             this.panel3.BackColor = System.Drawing.Color.AliceBlue;
             this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Controls.Add(this.label9);
+            this.panel3.Controls.Add(this.lb_ctdt);
             this.panel3.Controls.Add(this.label10);
             this.panel3.Location = new System.Drawing.Point(281, 371);
             this.panel3.Name = "panel3";
@@ -99,14 +100,15 @@ namespace Quanlybantrasua
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // label9
+            // lb_ctdt
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(192, 49);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(44, 16);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "label9";
+            this.lb_ctdt.AutoSize = true;
+            this.lb_ctdt.Location = new System.Drawing.Point(192, 49);
+            this.lb_ctdt.Name = "lb_ctdt";
+            this.lb_ctdt.Size = new System.Drawing.Size(44, 16);
+            this.lb_ctdt.TabIndex = 1;
+            this.lb_ctdt.Text = "label9";
+            this.lb_ctdt.Click += new System.EventHandler(this.label9_Click);
             // 
             // label10
             // 
@@ -119,16 +121,16 @@ namespace Quanlybantrasua
             this.label10.TabIndex = 0;
             this.label10.Text = "Tổng Tiền";
             // 
-            // dataGridView1
+            // dgv_ctdt
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 77);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(1040, 265);
-            this.dataGridView1.TabIndex = 3;
+            this.dgv_ctdt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_ctdt.Location = new System.Drawing.Point(0, 77);
+            this.dgv_ctdt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dgv_ctdt.Name = "dgv_ctdt";
+            this.dgv_ctdt.RowHeadersWidth = 51;
+            this.dgv_ctdt.RowTemplate.Height = 29;
+            this.dgv_ctdt.Size = new System.Drawing.Size(1040, 265);
+            this.dgv_ctdt.TabIndex = 3;
             // 
             // dateTimePicker1
             // 
@@ -148,13 +150,13 @@ namespace Quanlybantrasua
             this.label4.TabIndex = 4;
             this.label4.Text = "Ngày khởi tạo :";
             // 
-            // textBox1
+            // txtTenNV
             // 
-            this.textBox1.Location = new System.Drawing.Point(229, 34);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(175, 25);
-            this.textBox1.TabIndex = 2;
+            this.txtTenNV.Location = new System.Drawing.Point(229, 34);
+            this.txtTenNV.Multiline = true;
+            this.txtTenNV.Name = "txtTenNV";
+            this.txtTenNV.Size = new System.Drawing.Size(175, 25);
+            this.txtTenNV.TabIndex = 2;
             // 
             // label2
             // 
@@ -195,7 +197,7 @@ namespace Quanlybantrasua
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_ctdt)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -204,13 +206,13 @@ namespace Quanlybantrasua
 
         private GroupBox groupBox1;
         private Label label1;
-        private DataGridView dataGridView1;
-        private TextBox textBox1;
+        private DataGridView dgv_ctdt;
+        private TextBox txtTenNV;
         private Label label2;
         private DateTimePicker dateTimePicker1;
         private Label label4;
         private Panel panel3;
-        private Label label9;
+        private Label lb_ctdt;
         private Label label10;
         private Button button1;
         private PictureBox pictureBox1;
