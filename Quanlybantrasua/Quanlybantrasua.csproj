@@ -67,9 +67,12 @@
     <Compile Include="DTO\CbbLHH.cs" />
     <Compile Include="DTO\CbbLKH.cs" />
     <Compile Include="DTO\ChitiethoadonView.cs" />
+    <Compile Include="DTO\CTDTView.cs" />
     <Compile Include="DTO\Hanghoastate.cs" />
     <Compile Include="DTO\Hanghoa_View.cs" />
+    <Compile Include="DTO\Hoadon_View.cs" />
     <Compile Include="DTO\Nhanvien_View.cs" />
+    <Compile Include="DTO\ThanhtoanView.cs" />
     <Compile Include="HANGHOA.cs">
       <DependentUpon>QLTS.tt</DependentUpon>
     </Compile>
@@ -192,6 +195,12 @@
     <Compile Include="View\UC_Hanghoa.Designer.cs">
       <DependentUpon>UC_Hanghoa.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\UC_Khachhang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\UC_Khachhang.Designer.cs">
+      <DependentUpon>UC_Khachhang.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\UC_NV.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -246,6 +255,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\UC_Hanghoa.resx">
       <DependentUpon>UC_Hanghoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UC_Khachhang.resx">
+      <DependentUpon>UC_Khachhang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\UC_NV.resx">
       <DependentUpon>UC_NV.cs</DependentUpon>

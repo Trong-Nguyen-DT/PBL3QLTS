@@ -22,10 +22,12 @@ namespace Quanlybantrasua
         }
         public void GUI()
         {
-            dataGridView1.DataSource = BLLQLTS.Instance.GetDetailBill(ID_HD);
-            dataGridView1.Columns[0].HeaderText = "Tên hàng hóa";
-            dataGridView1.Columns[1].HeaderText = "Số lượng";
-            dataGridView1.Columns[2].HeaderText = "Giá";
+            danhsachmon.DataSource = BLLQLTS.Instance.GetDetailBill(ID_HD);
+            danhsachmon.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            danhsachmon.Columns[0].HeaderText = "Tên hàng hóa";
+            danhsachmon.Columns[1].HeaderText = "Số lượng";
+            danhsachmon.Columns[2].HeaderText = "Đơn Giá";
+            danhsachmon.Columns[3].HeaderText = "Tổng tiền";
             foreach (HOA_DON i in BLLQLTS.Instance.GetAllHD())
             {
                 if (i.ID_HD == ID_HD)
@@ -33,14 +35,12 @@ namespace Quanlybantrasua
                     txtBan.Text = i.BAN.Tenban.ToString();
                     txtIDHD.Text = i.ID_HD.ToString();
                     txtTenNV.Text = i.NHANVIEN.Ten_NV.ToString();
-                    txtTongtien.Text = i.Tongtien.ToString();
+                    txtTongtien.Text = (i.Tongtien*100/(100-i.discount)).ToString();
                     txtKM.Text = i.discount.ToString();
+                    txtThanhtien.Text = i.Tongtien.ToString(); 
 
                 }
             }
         }
-
-
-
     }
 }

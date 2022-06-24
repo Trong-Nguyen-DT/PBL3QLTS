@@ -60,7 +60,8 @@ namespace Quanlybantrasua
             {
                 txtPass.UseSystemPasswordChar = false;
             }
-
         }
+
+       
     }
 }

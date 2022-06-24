@@ -35,7 +35,7 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.btDMK = new System.Windows.Forms.Button();
+            this.btKH = new System.Windows.Forms.Button();
             this.TLC = new System.Windows.Forms.Panel();
             this.btDT = new System.Windows.Forms.Button();
             this.btNV = new System.Windows.Forms.Button();
@@ -52,6 +52,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Timer = new System.Windows.Forms.Timer(this.components);
             this.panelHH = new System.Windows.Forms.Panel();
+            this.btDMK = new System.Windows.Forms.Button();
             this.paneltrai.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -79,7 +80,7 @@
             this.paneltrai.Controls.Add(this.pictureBox5);
             this.paneltrai.Controls.Add(this.pictureBox4);
             this.paneltrai.Controls.Add(this.pictureBox3);
-            this.paneltrai.Controls.Add(this.btDMK);
+            this.paneltrai.Controls.Add(this.btKH);
             this.paneltrai.Controls.Add(this.TLC);
             this.paneltrai.Controls.Add(this.btDT);
             this.paneltrai.Controls.Add(this.btNV);
@@ -132,20 +133,20 @@
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
-            // btDMK
+            // btKH
             // 
-            this.btDMK.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btDMK.FlatAppearance.BorderSize = 0;
-            this.btDMK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btDMK.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btDMK.ForeColor = System.Drawing.Color.White;
-            this.btDMK.Location = new System.Drawing.Point(12, 547);
-            this.btDMK.Name = "btDMK";
-            this.btDMK.Size = new System.Drawing.Size(275, 115);
-            this.btDMK.TabIndex = 32;
-            this.btDMK.Text = "           Đổi mật khẩu";
-            this.btDMK.UseVisualStyleBackColor = false;
-            this.btDMK.Click += new System.EventHandler(this.btDMK_Click);
+            this.btKH.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btKH.FlatAppearance.BorderSize = 0;
+            this.btKH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btKH.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btKH.ForeColor = System.Drawing.Color.White;
+            this.btKH.Location = new System.Drawing.Point(12, 547);
+            this.btKH.Name = "btKH";
+            this.btKH.Size = new System.Drawing.Size(275, 115);
+            this.btKH.TabIndex = 32;
+            this.btKH.Text = "           Khách hàng";
+            this.btKH.UseVisualStyleBackColor = false;
+            this.btKH.Click += new System.EventHandler(this.btKH_Click);
             // 
             // TLC
             // 
@@ -232,6 +233,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.btDMK);
             this.panel3.Controls.Add(this.btDangxuat);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(288, 0);
@@ -324,6 +326,22 @@
             this.panelHH.Size = new System.Drawing.Size(912, 518);
             this.panelHH.TabIndex = 31;
             // 
+            // btDMK
+            // 
+            this.btDMK.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btDMK.FlatAppearance.BorderSize = 0;
+            this.btDMK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btDMK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btDMK.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.btDMK.Image = global::Quanlybantrasua.Properties.Resources.Actions_list_remove_user_icon;
+            this.btDMK.Location = new System.Drawing.Point(766, 0);
+            this.btDMK.Name = "btDMK";
+            this.btDMK.Size = new System.Drawing.Size(73, 72);
+            this.btDMK.TabIndex = 1;
+            this.btDMK.Text = " ";
+            this.btDMK.UseVisualStyleBackColor = true;
+            this.btDMK.Click += new System.EventHandler(this.btDMK_Click);
+            // 
             // Quanlyhanghoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -373,12 +391,13 @@
         private System.Windows.Forms.Panel panelHH;
         private System.Windows.Forms.Button btDangxuat;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btDMK;
+        private System.Windows.Forms.Button btKH;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Button btDMK;
     }
 }

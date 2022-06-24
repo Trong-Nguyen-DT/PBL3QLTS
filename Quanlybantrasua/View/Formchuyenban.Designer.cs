@@ -30,26 +30,26 @@ namespace Quanlybantrasua
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
+            this.ban6 = new System.Windows.Forms.Button();
+            this.ban2 = new System.Windows.Forms.Button();
+            this.ban10 = new System.Windows.Forms.Button();
+            this.ban14 = new System.Windows.Forms.Button();
+            this.ban18 = new System.Windows.Forms.Button();
+            this.ban1 = new System.Windows.Forms.Button();
+            this.ban5 = new System.Windows.Forms.Button();
+            this.ban20 = new System.Windows.Forms.Button();
+            this.ban9 = new System.Windows.Forms.Button();
+            this.ban16 = new System.Windows.Forms.Button();
+            this.ban13 = new System.Windows.Forms.Button();
+            this.ban12 = new System.Windows.Forms.Button();
+            this.ban17 = new System.Windows.Forms.Button();
+            this.ban8 = new System.Windows.Forms.Button();
+            this.ban3 = new System.Windows.Forms.Button();
+            this.ban4 = new System.Windows.Forms.Button();
+            this.ban7 = new System.Windows.Forms.Button();
+            this.ban19 = new System.Windows.Forms.Button();
+            this.ban11 = new System.Windows.Forms.Button();
+            this.ban15 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
@@ -59,26 +59,26 @@ namespace Quanlybantrasua
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.MintCream;
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button9);
-            this.groupBox1.Controls.Add(this.button13);
-            this.groupBox1.Controls.Add(this.button17);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button6);
-            this.groupBox1.Controls.Add(this.button20);
-            this.groupBox1.Controls.Add(this.button10);
-            this.groupBox1.Controls.Add(this.button16);
-            this.groupBox1.Controls.Add(this.button14);
-            this.groupBox1.Controls.Add(this.button12);
-            this.groupBox1.Controls.Add(this.button18);
-            this.groupBox1.Controls.Add(this.button8);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button7);
-            this.groupBox1.Controls.Add(this.button19);
-            this.groupBox1.Controls.Add(this.button11);
-            this.groupBox1.Controls.Add(this.button15);
+            this.groupBox1.Controls.Add(this.ban6);
+            this.groupBox1.Controls.Add(this.ban2);
+            this.groupBox1.Controls.Add(this.ban10);
+            this.groupBox1.Controls.Add(this.ban14);
+            this.groupBox1.Controls.Add(this.ban18);
+            this.groupBox1.Controls.Add(this.ban1);
+            this.groupBox1.Controls.Add(this.ban5);
+            this.groupBox1.Controls.Add(this.ban20);
+            this.groupBox1.Controls.Add(this.ban9);
+            this.groupBox1.Controls.Add(this.ban16);
+            this.groupBox1.Controls.Add(this.ban13);
+            this.groupBox1.Controls.Add(this.ban12);
+            this.groupBox1.Controls.Add(this.ban17);
+            this.groupBox1.Controls.Add(this.ban8);
+            this.groupBox1.Controls.Add(this.ban3);
+            this.groupBox1.Controls.Add(this.ban4);
+            this.groupBox1.Controls.Add(this.ban7);
+            this.groupBox1.Controls.Add(this.ban19);
+            this.groupBox1.Controls.Add(this.ban11);
+            this.groupBox1.Controls.Add(this.ban15);
             this.groupBox1.Location = new System.Drawing.Point(36, 52);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
@@ -87,235 +87,252 @@ namespace Quanlybantrasua
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             // 
-            // button5
+            // ban6
             // 
-            this.button5.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button5.Location = new System.Drawing.Point(97, 99);
-            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(67, 57);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "Bàn 6";
-            this.button5.UseVisualStyleBackColor = false;
+            this.ban6.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban6.Location = new System.Drawing.Point(97, 99);
+            this.ban6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban6.Name = "ban6";
+            this.ban6.Size = new System.Drawing.Size(67, 57);
+            this.ban6.TabIndex = 0;
+            this.ban6.Text = "Bàn 6";
+            this.ban6.UseVisualStyleBackColor = false;
+            this.ban6.Click += new System.EventHandler(this.Click);
             // 
-            // button1
+            // ban2
             // 
-            this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button1.Location = new System.Drawing.Point(97, 29);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(67, 57);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Bàn 2";
-            this.button1.UseVisualStyleBackColor = false;
+            this.ban2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban2.Location = new System.Drawing.Point(97, 29);
+            this.ban2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban2.Name = "ban2";
+            this.ban2.Size = new System.Drawing.Size(67, 57);
+            this.ban2.TabIndex = 0;
+            this.ban2.Text = "Bàn 2";
+            this.ban2.UseVisualStyleBackColor = false;
+            this.ban2.Click += new System.EventHandler(this.Click);
             // 
-            // button9
+            // ban10
             // 
-            this.button9.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button9.Location = new System.Drawing.Point(97, 178);
-            this.button9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(67, 57);
-            this.button9.TabIndex = 0;
-            this.button9.Text = "Bàn 10";
-            this.button9.UseVisualStyleBackColor = false;
+            this.ban10.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban10.Location = new System.Drawing.Point(97, 178);
+            this.ban10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban10.Name = "ban10";
+            this.ban10.Size = new System.Drawing.Size(67, 57);
+            this.ban10.TabIndex = 0;
+            this.ban10.Text = "Bàn 10";
+            this.ban10.UseVisualStyleBackColor = false;
+            this.ban10.Click += new System.EventHandler(this.Click);
             // 
-            // button13
+            // ban14
             // 
-            this.button13.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button13.Location = new System.Drawing.Point(97, 255);
-            this.button13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(67, 57);
-            this.button13.TabIndex = 0;
-            this.button13.Text = "Bàn 14";
-            this.button13.UseVisualStyleBackColor = false;
+            this.ban14.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban14.Location = new System.Drawing.Point(97, 255);
+            this.ban14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban14.Name = "ban14";
+            this.ban14.Size = new System.Drawing.Size(67, 57);
+            this.ban14.TabIndex = 0;
+            this.ban14.Text = "Bàn 14";
+            this.ban14.UseVisualStyleBackColor = false;
+            this.ban14.Click += new System.EventHandler(this.Click);
             // 
-            // button17
+            // ban18
             // 
-            this.button17.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button17.Location = new System.Drawing.Point(97, 330);
-            this.button17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(67, 57);
-            this.button17.TabIndex = 0;
-            this.button17.Text = "Bàn 18";
-            this.button17.UseVisualStyleBackColor = false;
+            this.ban18.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban18.Location = new System.Drawing.Point(97, 330);
+            this.ban18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban18.Name = "ban18";
+            this.ban18.Size = new System.Drawing.Size(67, 57);
+            this.ban18.TabIndex = 0;
+            this.ban18.Text = "Bàn 18";
+            this.ban18.UseVisualStyleBackColor = false;
+            this.ban18.Click += new System.EventHandler(this.Click);
             // 
-            // button4
+            // ban1
             // 
-            this.button4.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button4.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(11, 29);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(67, 57);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "Bàn 1";
-            this.button4.UseVisualStyleBackColor = false;
+            this.ban1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban1.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.ban1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ban1.Location = new System.Drawing.Point(11, 29);
+            this.ban1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban1.Name = "ban1";
+            this.ban1.Size = new System.Drawing.Size(67, 57);
+            this.ban1.TabIndex = 0;
+            this.ban1.Text = "Bàn 1";
+            this.ban1.UseVisualStyleBackColor = false;
+            this.ban1.Click += new System.EventHandler(this.Click);
             // 
-            // button6
+            // ban5
             // 
-            this.button6.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button6.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(11, 99);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(67, 57);
-            this.button6.TabIndex = 0;
-            this.button6.Text = "Bàn 5";
-            this.button6.UseVisualStyleBackColor = false;
+            this.ban5.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban5.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.ban5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ban5.Location = new System.Drawing.Point(11, 99);
+            this.ban5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban5.Name = "ban5";
+            this.ban5.Size = new System.Drawing.Size(67, 57);
+            this.ban5.TabIndex = 0;
+            this.ban5.Text = "Bàn 5";
+            this.ban5.UseVisualStyleBackColor = false;
+            this.ban5.Click += new System.EventHandler(this.Click);
             // 
-            // button20
+            // ban20
             // 
-            this.button20.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button20.Location = new System.Drawing.Point(270, 330);
-            this.button20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(67, 57);
-            this.button20.TabIndex = 0;
-            this.button20.Text = "Bàn 20";
-            this.button20.UseVisualStyleBackColor = false;
+            this.ban20.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban20.Location = new System.Drawing.Point(270, 330);
+            this.ban20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban20.Name = "ban20";
+            this.ban20.Size = new System.Drawing.Size(67, 57);
+            this.ban20.TabIndex = 0;
+            this.ban20.Text = "Bàn 20";
+            this.ban20.UseVisualStyleBackColor = false;
+            this.ban20.Click += new System.EventHandler(this.Click);
             // 
-            // button10
+            // ban9
             // 
-            this.button10.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button10.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.Location = new System.Drawing.Point(11, 178);
-            this.button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(67, 57);
-            this.button10.TabIndex = 0;
-            this.button10.Text = "Bàn 9";
-            this.button10.UseVisualStyleBackColor = false;
+            this.ban9.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban9.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.ban9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ban9.Location = new System.Drawing.Point(11, 178);
+            this.ban9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban9.Name = "ban9";
+            this.ban9.Size = new System.Drawing.Size(67, 57);
+            this.ban9.TabIndex = 0;
+            this.ban9.Text = "Bàn 9";
+            this.ban9.UseVisualStyleBackColor = false;
+            this.ban9.Click += new System.EventHandler(this.Click);
             // 
-            // button16
+            // ban16
             // 
-            this.button16.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button16.Location = new System.Drawing.Point(270, 255);
-            this.button16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(67, 57);
-            this.button16.TabIndex = 0;
-            this.button16.Text = "Bàn 16";
-            this.button16.UseVisualStyleBackColor = false;
+            this.ban16.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban16.Location = new System.Drawing.Point(270, 255);
+            this.ban16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban16.Name = "ban16";
+            this.ban16.Size = new System.Drawing.Size(67, 57);
+            this.ban16.TabIndex = 0;
+            this.ban16.Text = "Bàn 16";
+            this.ban16.UseVisualStyleBackColor = false;
+            this.ban16.Click += new System.EventHandler(this.Click);
             // 
-            // button14
+            // ban13
             // 
-            this.button14.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button14.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.Location = new System.Drawing.Point(11, 255);
-            this.button14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(67, 57);
-            this.button14.TabIndex = 0;
-            this.button14.Text = "Bàn 13";
-            this.button14.UseVisualStyleBackColor = false;
+            this.ban13.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban13.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.ban13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ban13.Location = new System.Drawing.Point(11, 255);
+            this.ban13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban13.Name = "ban13";
+            this.ban13.Size = new System.Drawing.Size(67, 57);
+            this.ban13.TabIndex = 0;
+            this.ban13.Text = "Bàn 13";
+            this.ban13.UseVisualStyleBackColor = false;
+            this.ban13.Click += new System.EventHandler(this.Click);
             // 
-            // button12
+            // ban12
             // 
-            this.button12.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button12.Location = new System.Drawing.Point(270, 178);
-            this.button12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(67, 57);
-            this.button12.TabIndex = 0;
-            this.button12.Text = "Bàn 12";
-            this.button12.UseVisualStyleBackColor = false;
+            this.ban12.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban12.Location = new System.Drawing.Point(270, 178);
+            this.ban12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban12.Name = "ban12";
+            this.ban12.Size = new System.Drawing.Size(67, 57);
+            this.ban12.TabIndex = 0;
+            this.ban12.Text = "Bàn 12";
+            this.ban12.UseVisualStyleBackColor = false;
+            this.ban12.Click += new System.EventHandler(this.Click);
             // 
-            // button18
+            // ban17
             // 
-            this.button18.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button18.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.button18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button18.Location = new System.Drawing.Point(11, 330);
-            this.button18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(67, 57);
-            this.button18.TabIndex = 0;
-            this.button18.Text = "Bàn 17";
-            this.button18.UseVisualStyleBackColor = false;
+            this.ban17.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban17.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.ban17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ban17.Location = new System.Drawing.Point(11, 330);
+            this.ban17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban17.Name = "ban17";
+            this.ban17.Size = new System.Drawing.Size(67, 57);
+            this.ban17.TabIndex = 0;
+            this.ban17.Text = "Bàn 17";
+            this.ban17.UseVisualStyleBackColor = false;
+            this.ban17.Click += new System.EventHandler(this.Click);
             // 
-            // button8
+            // ban8
             // 
-            this.button8.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button8.Location = new System.Drawing.Point(270, 99);
-            this.button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(67, 57);
-            this.button8.TabIndex = 0;
-            this.button8.Text = "Bàn 8";
-            this.button8.UseVisualStyleBackColor = false;
+            this.ban8.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban8.Location = new System.Drawing.Point(270, 99);
+            this.ban8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban8.Name = "ban8";
+            this.ban8.Size = new System.Drawing.Size(67, 57);
+            this.ban8.TabIndex = 0;
+            this.ban8.Text = "Bàn 8";
+            this.ban8.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // ban3
             // 
-            this.button2.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button2.Location = new System.Drawing.Point(182, 29);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(67, 57);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Bàn 3";
-            this.button2.UseVisualStyleBackColor = false;
+            this.ban3.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban3.Location = new System.Drawing.Point(182, 29);
+            this.ban3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban3.Name = "ban3";
+            this.ban3.Size = new System.Drawing.Size(67, 57);
+            this.ban3.TabIndex = 0;
+            this.ban3.Text = "Bàn 3";
+            this.ban3.UseVisualStyleBackColor = false;
+            this.ban3.Click += new System.EventHandler(this.Click);
             // 
-            // button3
+            // ban4
             // 
-            this.button3.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button3.Location = new System.Drawing.Point(270, 29);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(67, 57);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "Bàn 4";
-            this.button3.UseVisualStyleBackColor = false;
+            this.ban4.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban4.Location = new System.Drawing.Point(270, 29);
+            this.ban4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban4.Name = "ban4";
+            this.ban4.Size = new System.Drawing.Size(67, 57);
+            this.ban4.TabIndex = 0;
+            this.ban4.Text = "Bàn 4";
+            this.ban4.UseVisualStyleBackColor = false;
+            this.ban4.Click += new System.EventHandler(this.Click);
             // 
-            // button7
+            // ban7
             // 
-            this.button7.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button7.Location = new System.Drawing.Point(182, 99);
-            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(67, 57);
-            this.button7.TabIndex = 0;
-            this.button7.Text = "Bàn 7";
-            this.button7.UseVisualStyleBackColor = false;
+            this.ban7.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban7.Location = new System.Drawing.Point(182, 99);
+            this.ban7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban7.Name = "ban7";
+            this.ban7.Size = new System.Drawing.Size(67, 57);
+            this.ban7.TabIndex = 0;
+            this.ban7.Text = "Bàn 7";
+            this.ban7.UseVisualStyleBackColor = false;
             // 
-            // button19
+            // ban19
             // 
-            this.button19.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button19.Location = new System.Drawing.Point(182, 330);
-            this.button19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(67, 57);
-            this.button19.TabIndex = 0;
-            this.button19.Text = "Bàn 19";
-            this.button19.UseVisualStyleBackColor = false;
+            this.ban19.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban19.Location = new System.Drawing.Point(182, 330);
+            this.ban19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban19.Name = "ban19";
+            this.ban19.Size = new System.Drawing.Size(67, 57);
+            this.ban19.TabIndex = 0;
+            this.ban19.Text = "Bàn 19";
+            this.ban19.UseVisualStyleBackColor = false;
+            this.ban19.Click += new System.EventHandler(this.Click);
             // 
-            // button11
+            // ban11
             // 
-            this.button11.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button11.Location = new System.Drawing.Point(182, 178);
-            this.button11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(67, 57);
-            this.button11.TabIndex = 0;
-            this.button11.Text = "Bàn 11";
-            this.button11.UseVisualStyleBackColor = false;
+            this.ban11.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban11.Location = new System.Drawing.Point(182, 178);
+            this.ban11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban11.Name = "ban11";
+            this.ban11.Size = new System.Drawing.Size(67, 57);
+            this.ban11.TabIndex = 0;
+            this.ban11.Text = "Bàn 11";
+            this.ban11.UseVisualStyleBackColor = false;
             // 
-            // button15
+            // ban15
             // 
-            this.button15.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button15.Location = new System.Drawing.Point(182, 255);
-            this.button15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(67, 57);
-            this.button15.TabIndex = 0;
-            this.button15.Text = "Bàn 15";
-            this.button15.UseVisualStyleBackColor = false;
+            this.ban15.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.ban15.Location = new System.Drawing.Point(182, 255);
+            this.ban15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ban15.Name = "ban15";
+            this.ban15.Size = new System.Drawing.Size(67, 57);
+            this.ban15.TabIndex = 0;
+            this.ban15.Text = "Bàn 15";
+            this.ban15.UseVisualStyleBackColor = false;
+            this.ban15.Click += new System.EventHandler(this.Click);
             // 
             // label1
             // 
@@ -337,6 +354,7 @@ namespace Quanlybantrasua
             this.button21.TabIndex = 9;
             this.button21.Text = "Lưu";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // button22
             // 
@@ -347,6 +365,7 @@ namespace Quanlybantrasua
             this.button22.TabIndex = 9;
             this.button22.Text = "Hủy";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // Formchuyenban
             // 
@@ -371,26 +390,26 @@ namespace Quanlybantrasua
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button ban6;
+        private System.Windows.Forms.Button ban2;
+        private System.Windows.Forms.Button ban10;
+        private System.Windows.Forms.Button ban14;
+        private System.Windows.Forms.Button ban18;
+        private System.Windows.Forms.Button ban1;
+        private System.Windows.Forms.Button ban5;
+        private System.Windows.Forms.Button ban20;
+        private System.Windows.Forms.Button ban9;
+        private System.Windows.Forms.Button ban16;
+        private System.Windows.Forms.Button ban13;
+        private System.Windows.Forms.Button ban12;
+        private System.Windows.Forms.Button ban17;
+        private System.Windows.Forms.Button ban8;
+        private System.Windows.Forms.Button ban3;
+        private System.Windows.Forms.Button ban4;
+        private System.Windows.Forms.Button ban7;
+        private System.Windows.Forms.Button ban19;
+        private System.Windows.Forms.Button ban11;
+        private System.Windows.Forms.Button ban15;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button22;

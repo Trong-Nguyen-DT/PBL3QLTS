@@ -68,10 +68,17 @@ namespace Quanlybantrasua
             this.Close();
         }
 
+        private void btKH_Click(object sender, EventArgs e)
+        {
+            Thanhlucchon(btKH);
+            UC_Khachhang uckh = new UC_Khachhang();
+            AddControls(uckh);
+        }
+
         private void btDMK_Click(object sender, EventArgs e)
         {
-            Formdoimatkhau dmk = new Formdoimatkhau();
-            dmk.ShowDialog();
+            Formdoimatkhau s = new Formdoimatkhau("");
+            s.ShowDialog();
         }
     }
 }

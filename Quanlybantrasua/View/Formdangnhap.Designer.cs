@@ -35,18 +35,18 @@ namespace Quanlybantrasua
             this.txtPass = new System.Windows.Forms.TextBox();
             this.butOK = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btNguon = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btNguon = new System.Windows.Forms.Button();
             this.hienmk = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,6 +81,7 @@ namespace Quanlybantrasua
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(415, 34);
             this.txtName.TabIndex = 0;
+            this.txtName.Text = "Hau";
             // 
             // txtPass
             // 
@@ -92,6 +93,7 @@ namespace Quanlybantrasua
             this.txtPass.Name = "txtPass";
             this.txtPass.Size = new System.Drawing.Size(415, 34);
             this.txtPass.TabIndex = 1;
+            this.txtPass.Text = "Hau";
             this.txtPass.UseSystemPasswordChar = true;
             // 
             // butOK
@@ -122,6 +124,34 @@ namespace Quanlybantrasua
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1200, 125);
             this.panel2.TabIndex = 7;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Quanlybantrasua.Properties.Resources._249939013_247249250756799_6554253772619443181_n;
+            this.pictureBox1.Location = new System.Drawing.Point(-4, -6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(136, 142);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btNguon
+            // 
+            this.btNguon.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btNguon.Dock = System.Windows.Forms.DockStyle.Right;
+            this.btNguon.FlatAppearance.BorderSize = 0;
+            this.btNguon.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btNguon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btNguon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btNguon.ForeColor = System.Drawing.Color.White;
+            this.btNguon.Image = global::Quanlybantrasua.Properties.Resources.off;
+            this.btNguon.Location = new System.Drawing.Point(1075, 0);
+            this.btNguon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btNguon.Name = "btNguon";
+            this.btNguon.Size = new System.Drawing.Size(125, 125);
+            this.btNguon.TabIndex = 4;
+            this.btNguon.UseVisualStyleBackColor = false;
+            this.btNguon.Click += new System.EventHandler(this.btNguon_Click);
             // 
             // label4
             // 
@@ -177,34 +207,6 @@ namespace Quanlybantrasua
             this.panel3.Size = new System.Drawing.Size(443, 293);
             this.panel3.TabIndex = 11;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Quanlybantrasua.Properties.Resources._249939013_247249250756799_6554253772619443181_n;
-            this.pictureBox1.Location = new System.Drawing.Point(-4, -6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(136, 142);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btNguon
-            // 
-            this.btNguon.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.btNguon.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btNguon.FlatAppearance.BorderSize = 0;
-            this.btNguon.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btNguon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btNguon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btNguon.ForeColor = System.Drawing.Color.White;
-            this.btNguon.Image = global::Quanlybantrasua.Properties.Resources.off;
-            this.btNguon.Location = new System.Drawing.Point(1075, 0);
-            this.btNguon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btNguon.Name = "btNguon";
-            this.btNguon.Size = new System.Drawing.Size(125, 125);
-            this.btNguon.TabIndex = 4;
-            this.btNguon.UseVisualStyleBackColor = false;
-            this.btNguon.Click += new System.EventHandler(this.btNguon_Click);
-            // 
             // hienmk
             // 
             this.hienmk.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -245,11 +247,11 @@ namespace Quanlybantrasua
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 

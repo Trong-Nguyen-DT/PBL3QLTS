@@ -14,7 +14,7 @@ namespace Quanlybantrasua.View
     public partial class Formsuasoluong : Form
     {
         public int IDHH { get; set; }
-        public string Name { get; set; }
+      // public string Name { get; set; }
         public Formsuasoluong(int ID_HH,string Tenban)
         {
             InitializeComponent();
