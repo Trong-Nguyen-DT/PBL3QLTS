@@ -18,6 +18,12 @@ namespace Quanlybantrasua.View
         {
             InitializeComponent();
             GUI();
+            dataGridViewNV.Columns[0].HeaderText = "Mã nhân viên";
+            dataGridViewNV.Columns[1].HeaderText = "Tên nhân viên";
+            dataGridViewNV.Columns[2].HeaderText = "Giới tính";
+            dataGridViewNV.Columns[3].HeaderText = "Số điện thoại";
+            dataGridViewNV.Columns[4].HeaderText = "Quản lý";
+            dataGridViewNV.Columns[5].HeaderText = "Mật khẩu";
         }
         public void GUI()
         {

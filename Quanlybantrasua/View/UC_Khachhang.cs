@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Quanlybantrasua.BLL;
 
 namespace Quanlybantrasua.View
 {
@@ -15,6 +16,17 @@ namespace Quanlybantrasua.View
         public UC_Khachhang()
         {
             InitializeComponent();
+            GUI();
+            dataGridView1.Columns[0].HeaderText = "Số điện thoại";
+            dataGridView1.Columns[1].HeaderText = "Tên khách hàng";
+            dataGridView1.Columns[2].HeaderText = "Điểm tích lũy";
+
+        }
+        public void GUI()
+        {
+            dataGridView1.DataSource = BLLQLTS.Instance.GetKHView();
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
         }
     }
 }

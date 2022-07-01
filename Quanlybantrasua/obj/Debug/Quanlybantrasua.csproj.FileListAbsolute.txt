@@ -1,30 +1,3 @@
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\bin\Debug\Quanlybantrasua.exe.config
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\bin\Debug\Quanlybantrasua.exe
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\bin\Debug\Quanlybantrasua.pdb
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\bin\Debug\EntityFramework.dll
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\bin\Debug\EntityFramework.xml
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.csproj.AssemblyReference.cache
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.csproj.SuggestedBindingRedirects.cache
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Properties.Resources.resources
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.AddLhh.resources
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Formchuyenban.resources
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Formdangnhap.resources
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Formdoimatkhau.resources
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Doanhthu.resources
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.GUI.resources
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Quanlyhanghoa.resources
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Themmon.resources
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.ThemNV.resources
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.UC_doanhthu.resources
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.UC_Hanghoa.resources
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.UC_NV.resources
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.csproj.GenerateResource.cache
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.csproj.CoreCompileInputs.cache
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.csproj.CopyComplete
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.exe
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.pdb
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\bin\Debug\Quanlybantrasua.exe.config
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\bin\Debug\Quanlybantrasua.exe
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\bin\Debug\Quanlybantrasua.pdb
@@ -39,52 +12,17 @@ C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantr
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Formdangnhap.resources
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Formdoimatkhau.resources
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Doanhthu.resources
+C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.Formsuasoluong.resources
+C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.xemdon.resources
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.GUI.resources
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Quanlyhanghoa.resources
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Themmon.resources
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.ThemNV.resources
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.UC_doanhthu.resources
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.UC_Hanghoa.resources
+C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.UC_Khachhang.resources
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.UC_NV.resources
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.csproj.GenerateResource.cache
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.csproj.CoreCompileInputs.cache
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.exe
 C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.pdb
-C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.Formsuasoluong.resources
-C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.xemdon.resources
-<<<<<<< HEAD
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.Formsuasoluong.resources
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.xemdon.resources
-C:\Users\ADMIN\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.UC_Khachhang.resources
-=======
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\bin\Debug\Quanlybantrasua.exe.config
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\bin\Debug\Quanlybantrasua.exe
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\bin\Debug\Quanlybantrasua.pdb
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\bin\Debug\EntityFramework.dll
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\bin\Debug\EntityFramework.xml
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.csproj.AssemblyReference.cache
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.csproj.SuggestedBindingRedirects.cache
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Properties.Resources.resources
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.AddLhh.resources
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Formchuyenban.resources
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Formdangnhap.resources
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Formdoimatkhau.resources
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Doanhthu.resources
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.Formsuasoluong.resources
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.xemdon.resources
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.GUI.resources
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Quanlyhanghoa.resources
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.Themmon.resources
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.ThemNV.resources
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.UC_doanhthu.resources
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.UC_Hanghoa.resources
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.UC_NV.resources
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.csproj.GenerateResource.cache
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.csproj.CoreCompileInputs.cache
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.csproj.CopyComplete
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.exe
-C:\Users\ASUS\Desktop\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.pdb
->>>>>>> 1488d2243caef279f042816a460dffecf16eb792
-C:\Users\User\OneDrive\Máy tính\PBL3QLTS\Quanlybantrasua\obj\Debug\Quanlybantrasua.View.UC_Khachhang.resources

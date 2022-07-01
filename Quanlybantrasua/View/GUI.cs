@@ -216,6 +216,7 @@ namespace Quanlybantrasua
                     KHACHHANG k = new KHACHHANG
                     {
                         PhoneNumber = Convert.ToInt32(txtPhone.Text.ToString()),
+                        Diemtichluy = 0,
                         Ten_KH = txtNameKH.Text.ToString()
                     };
                     BLLQLTS.Instance.AddUpdateKH(k);

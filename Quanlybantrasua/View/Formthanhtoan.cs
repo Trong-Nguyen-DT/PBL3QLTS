@@ -22,7 +22,7 @@ namespace Quanlybantrasua
         }
         public void GUI()
         {
-            danhsachmon.DataSource = BLLQLTS.Instance.GetDetailBill(ID_HD);
+            danhsachmon.DataSource = BLLQLTS.Instance.GetthanhtoanView(ID_HD);
             danhsachmon.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             danhsachmon.Columns[0].HeaderText = "Tên hàng hóa";
             danhsachmon.Columns[1].HeaderText = "Số lượng";

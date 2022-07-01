@@ -71,6 +71,7 @@
     <Compile Include="DTO\Hanghoastate.cs" />
     <Compile Include="DTO\Hanghoa_View.cs" />
     <Compile Include="DTO\Hoadon_View.cs" />
+    <Compile Include="DTO\Khachhangview.cs" />
     <Compile Include="DTO\Nhanvien_View.cs" />
     <Compile Include="DTO\ThanhtoanView.cs" />
     <Compile Include="HANGHOA.cs">

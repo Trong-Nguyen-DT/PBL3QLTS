@@ -152,7 +152,13 @@ namespace Quanlybantrasua.BLL
             return true;
             
         }
-        public List<ThanhtoanView> GetDetailBill(int IDHD)
+        public List<ChitiethoadonView> GetDetailBill(int IDHD)
+        {
+            List<ChitiethoadonView> data = new List<ChitiethoadonView>();
+            data = db.CHI_TIET_HOA_DON.Where(p=>p.HOA_DON.ID_HD==IDHD&&p.soluong>0).Select(p => new ChitiethoadonView { ID_HH=(int)p.ID_HH,Ten_HH = p.HANGHOA.Ten_HH, soluong = (int)p.soluong}).ToList();
+            return data;
+        }
+        public List<ThanhtoanView> GetthanhtoanView(int IDHD)
         {
             List<ThanhtoanView> data = new List<ThanhtoanView>();
             data = db.CHI_TIET_HOA_DON.Where(p=>p.HOA_DON.ID_HD==IDHD&&p.soluong>0).Select(p => new ThanhtoanView { TenHH = p.HANGHOA.Ten_HH, Soluong = (int)p.soluong,Dongia=(int)p.HANGHOA.Gia, Gia=(int)(p.soluong*p.HANGHOA.Gia)}).ToList();
@@ -177,6 +183,8 @@ namespace Quanlybantrasua.BLL
                 k.ID_LKH = 2;
                 k.Diemtichluy = 0;
                 db.KHACHHANGs.Add(k);
+                db.SaveChanges();
+
             }
             else
             {
@@ -187,8 +195,9 @@ namespace Quanlybantrasua.BLL
                 {
                     s.ID_LKH = 2;
                 }
+                db.SaveChanges();
+
             }
-            db.SaveChanges();
         }
         public List<BAN> GetState()
         {
@@ -254,6 +263,18 @@ namespace Quanlybantrasua.BLL
         {
             List<HOA_DON> data = new List<HOA_DON>();
             data = db.HOA_DON.ToList();
+            return data;
+        }
+        public List<KHACHHANG> GetAllKH()
+        {
+            List<KHACHHANG> data = new List<KHACHHANG>();
+            data = db.KHACHHANGs.ToList();
+            return data;
+        }
+        public List<Khachhangview> GetKHView()
+        {
+            List<Khachhangview> data = new List<Khachhangview>();
+            data = db.KHACHHANGs.Select(p => new Khachhangview { TenKH=p.Ten_KH, Sdt=p.PhoneNumber,Tichluy=(int)p.Diemtichluy}).ToList();
             return data;
         }
         public List<CHI_TIET_HOA_DON> GetAllCTHD()
